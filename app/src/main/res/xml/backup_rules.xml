@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TrueStep Backup Rules (API < 31) -->
+<full-backup-content>
+    <!-- Include user step database, DataStore preferences, and shared preferences -->
+    <include domain="database" path="." />
+    <include domain="sharedpref" path="." />
+    <include domain="file" path="datastore" />
+</full-backup-content>

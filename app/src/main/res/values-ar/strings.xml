@@ -1,0 +1,782 @@
+<resources>
+    <string name="app_name">TrueStep</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">اليوم</string>
+    <string name="nav_history">السجل</string>
+    <string name="nav_goals">الأهداف</string>
+    <string name="nav_trust">مركز الثقة</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="nav_achievements">الأوسمة</string>
+    <string name="nav_analytics">التحليل</string>
+    <string name="nav_walk_session">جلسة مشي</string>
+
+    <!-- Home Dashboard -->
+    <string name="today_title">نشاط اليوم</string>
+    <string name="steps_unit">خطوة</string>
+    <string name="of_goal">من الهدف</string>
+    <string name="tap_to_pause">اضغط للإيقاف المؤقت</string>
+    <string name="tap_to_resume">اضغط للاستئناف</string>
+    <string name="paused_body">لا تُضاف الخطوات أثناء توقف العدّ المؤقت.</string>
+    <string name="day_shape">اليوم، ساعة بساعة</string>
+    <string name="now_tag">الآن</string>
+    <string name="elapsed_so_far">حتى الآن</string>
+    <string name="history_chart">سجل الخطوات</string>
+    <string name="daily">يومي</string>
+    <string name="weekly">أسبوعي</string>
+    <string name="monthly">شهري</string>
+    <string name="last_14_days">آخر 14 يومًا</string>
+    <string name="last_12_weeks">آخر 12 أسبوعًا</string>
+    <string name="last_12_months">آخر 12 شهرًا</string>
+    <string name="this_hour">هذه الساعة</string>
+    <string name="selected_hour">الساعة المحددة</string>
+    <string name="full_day">اليوم بالكامل</string>
+    <string name="today_steps">خطوات اليوم</string>
+    <string name="start_of_day">بداية اليوم</string>
+    <string name="end_of_day">نهاية اليوم</string>
+    <string name="in_this_hour">في هذه الساعة</string>
+    <string name="goal_progress">تقدم الهدف</string>
+    <string name="share_of_day">من نشاط اليوم</string>
+    <string name="to_target">%1$d خطوة متبقية للهدف</string>
+    <string name="goal_reached">تم تحقيق الهدف اليومي! 🎉</string>
+    <string name="stretch_reached">تم فتح الهدف الإضافي! 🚀</string>
+    <string name="minimum_reached">تم الوصول للحد الأدنى للهدف</string>
+    <string name="edit_goal">تعديل الهدف</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="resume">استئناف</string>
+    <string name="tracking_paused">عدّ الخطوات متوقف مؤقتًا</string>
+    <string name="tracking_active">عدّ الخطوات نشط</string>
+    <string name="distance_label">المسافة</string>
+    <string name="km_unit">كم</string>
+    <string name="miles_unit">ميل</string>
+    <string name="active_time_label">وقت النشاط</string>
+    <string name="calories_burned">السعرات</string>
+    <string name="kcal_unit">سعرة</string>
+    <string name="streak_label">سلسلة الأيام</string>
+    <string name="days_unit">أيام</string>
+    <string name="min_goal_label">الحد الأدنى</string>
+    <string name="target_goal_label">الهدف</string>
+    <string name="stretch_goal_label">الهدف المتقدم</string>
+    <string name="confidence_high">دقة عالية (حساس مباشر / Health Connect)</string>
+    <string name="confidence_medium">مصادر موحدة بعد الفحص</string>
+    <string name="confidence_low">بيانات قديمة أو جزئية</string>
+    <string name="source_status_format">المصدر: %1$s • %2$s</string>
+    <string name="data_current">محدث حتى %1$s</string>
+    <string name="data_stale">البيانات لم تُحدث مؤخرًا. اسحب للتحديث.</string>
+    <string name="supportive_habit">كل خطوة تخطوها تدعم صحتك وحيويتك.</string>
+    <string name="supportive_rest">الراحة والاستشفاء يجددان طاقتك ونشاطك.</string>
+    <string name="sync_now">مزامنة الآن</string>
+
+    <!-- History Screen -->
+    <string name="history_title">سجل الخطوات</string>
+    <string name="daily_records_title">السجل اليومي واليوميات</string>
+    <string name="toggle_7_days">7 أيام</string>
+    <string name="toggle_30_days">30 يومًا</string>
+    <string name="weekly_average">متوسط 7 أيام</string>
+    <string name="monthly_average">متوسط 30 يومًا</string>
+    <string name="best_day">أفضل يوم</string>
+    <string name="summary_accessibility">%1$s: %2$d خطوة في %3$s</string>
+    <string name="chart_accessibility_summary">رسم بياني لسجل الخطوات يوضح متوسط %1$d خطوة يوميًا خلال الفترة المحددة.</string>
+    <string name="day_detail_title">تفاصيل اليوم</string>
+    <string name="notes_placeholder">أضف ملاحظة شخصية لهذا اليوم…</string>
+    <string name="goal_status_label">حالة الهدف</string>
+    <string name="rest_day_indicator">يوم راحة مخصص</string>
+    <string name="recovery_day_indicator">وضع الاستشفاء نشط</string>
+    <string name="no_history_yet">لا توجد خطوات مسجلة بعد. ابدأ المشي بهاتفك!</string>
+
+    <!-- Goals & Adaptive -->
+    <string name="goals_title">أهداف النشاط</string>
+    <string name="adaptive_goals">أهداف ذكية متكيفة</string>
+    <string name="adaptive_goals_desc">تعديل أهدافك تدريجيًا بناءً على متوسط نشاطك الفعلي لآخر 7 أيام (بزيادة 5–10% أسبوعيًا كحد أقصى).</string>
+    <string name="lock_goals">تثبيت الأهداف</string>
+    <string name="lock_goals_desc">منع التحديث التلقائي للأهداف والالتزام بالأرقام المحددة يدويًا.</string>
+    <string name="rest_days_title">أيام الراحة</string>
+    <string name="rest_days_desc">احمِ سلسلتك بدون قلق أو شعور بالذنب في أيام التعافي المختارة.</string>
+    <string name="recovery_mode">وضع التعافي</string>
+    <string name="recovery_mode_desc">يخفف أهداف الخطوات مؤقتًا أثناء المرض أو الإصابة أو الإرهاق.</string>
+    <string name="recovery_days_count">%1$d أيام متبقية في وضع التعافي</string>
+    <string name="restore_default_goals">إعادة تعيين الأهداف المقترحة</string>
+    <string name="goal_profile_beginner">بداية هادئة (4,000 خطوة)</string>
+    <string name="goal_profile_active">ممارس نشط (7,500 خطوة)</string>
+    <string name="goal_profile_stretch">متقدم وملتزم (10,000 خطوة)</string>
+
+    <!-- Trust Center & Device Health -->
+    <string name="trust_sensor_center">صحة الجهاز وحساس الخطوات (مركز الثقة)</string>
+    <string name="trust_sensor_subtitle">شفافية كاملة حول الحساسات، عدّ الخطوات في الخلفية، واستثناءات البطارية</string>
+    <string name="trust_center_title">الثقة والشفافية</string>
+    <string name="trust_center_subtitle">رؤية كاملة لمصدر بيانات خطواتك وكيفية معالجتها محليًا دون تزييف.</string>
+    <string name="health_connect_status">Health Connect</string>
+    <string name="health_connect_connected">متصل ونشط</string>
+    <string name="health_connect_disconnected">غير متصل / يتطلب إذن</string>
+    <string name="phone_sensor_status">حساس الخطوات العتادي</string>
+    <string name="sensor_available">حساس العتاد TYPE_STEP_COUNTER متاح</string>
+    <string name="sensor_unavailable">لم يتم العثور على حساس العتاد (وضع القياس الاحتياطي)</string>
+    <string name="last_sync_label">آخر مزامنة</string>
+    <string name="duplicate_detection_title">كشف التكرار ومعالجة التداخل</string>
+    <string name="duplicates_excluded_count">تمت تسوية %1$d فترات بيانات متداخلة</string>
+    <string name="battery_opt_title">تحسين استهلاك البطارية</string>
+    <string name="battery_opt_desc">تقوم بعض الأجهزة بتقييد التطبيقات بالخلفية. إذا توقف العد أثناء إغلاق الشاشة، اسمح بنشاط التطبيق في الخلفية.</string>
+    <string name="open_battery_settings">فحص إعدادات البطارية</string>
+    <string name="open_health_connect">إدارة Health Connect</string>
+    <string name="request_sensor_perm">تفعيل إذن التعرف على النشاط</string>
+
+    <!-- Achievements & Milestones -->
+    <string name="achievements_title">المعالم والأوسمة</string>
+    <string name="tab_daily_goals">الأهداف اليومية</string>
+    <string name="tab_streaks">السلاسل</string>
+    <string name="tab_days">أيام النشاط</string>
+    <string name="tab_destinations">المسارات الافتراضية</string>
+    <string name="unlocked_badge">مكتمل</string>
+    <string name="locked_badge">قيد التقدم</string>
+    <string name="distance_to_dest">%1$.1f كم إلى %2$s</string>
+    <string name="next_destination">المعلم الافتراضي التالي</string>
+
+    <!-- Analytics / Analysis -->
+    <string name="analytics_title">التحليل والمعالم</string>
+    <string name="trend_chart_title">الاستمرارية والتقدم طويل المدى</string>
+    <string name="consistency_score">معدل الاستمرارية</string>
+    <string name="hourly_distribution">إيقاع النشاط خلال ساعات اليوم</string>
+    <string name="personal_records_title">الأرقام القياسية الشخصية</string>
+    <string name="all_time_best_day">أفضل يوم على الإطلاق</string>
+    <string name="best_week_record">أفضل أسبوع متتالي</string>
+    <string name="longest_streak_record">أطول سلسلة أيام</string>
+    <string name="total_lifetime_steps">إجمالي الخطوات الكلي</string>
+    <string name="total_lifetime_km">إجمالي المسافة المقطوعة</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="section_appearance">المظهر والألوان</string>
+    <string name="theme_selection">اختر المظهر</string>
+    <string name="dark_mode_option">وضع المظهر</string>
+    <string name="dark_mode_desc">التبديل بين الوضع الفاتح أو الداكن أو التلقائي حسب النظام</string>
+    <string name="dark_mode_system">حسب النظام</string>
+    <string name="dark_mode_on">الوضع الداكن</string>
+    <string name="dark_mode_off">الوضع الفاتح</string>
+    <string name="language_section">اللغة / Language</string>
+    <string name="language_label">لغة التطبيق</string>
+    <string name="language_desc">اختر لغتك المفضلة لعرض التطبيق</string>
+    <string name="language_system">تلقائي (حسب النظام)</string>
+    <string name="language_english">English (الإنجليزية)</string>
+    <string name="language_arabic">العربية (Arabic)</string>
+    <string name="section_general">الجهاز ومكان الحمل</string>
+    <string name="carrying_mode_label">أين تحمل هاتفك عادة؟</string>
+    <string name="mode_pocket">جيب البنطال أو المعطف</string>
+    <string name="mode_hand">في اليد أثناء المشي</string>
+    <string name="mode_bag">حقيبة يد أو كتف</string>
+    <string name="mode_backpack">حقيبة ظهر</string>
+    <string name="mode_wearable">ساعة ذكية / جهاز قابل للارتداء</string>
+    <string name="mode_treadmill">جهاز المشي / النادي الداخلي</string>
+    <string name="section_privacy">الخصوصية والتحكم في البيانات</string>
+    <string name="export_data">تصدير سجل الخطوات (CSV / JSON)</string>
+    <string name="export_success">تم تصدير البيانات بنجاح إلى مجلد التنزيلات</string>
+    <string name="delete_data">حذف جميع البيانات المحلية</string>
+    <string name="delete_data_confirm_title">حذف السجل المحلي؟</string>
+    <string name="delete_data_confirm_desc">سيتم حذف جميع سجلات الخطوات والملخصات اليومية والسلاسل المحفوظة محليًا نهائيًا. لن يتم تعديل بيانات Health Connect المخزنة على جهازك.</string>
+    <string name="confirm_delete">حذف نهائي</string>
+    <string name="section_about">حول TrueStep</string>
+    <string name="app_version_label">الإصدار 1.0.0 • دون اتصال وبخصوصية تامة</string>
+    <string name="privacy_guarantee">يعمل بالكامل دون إنترنت. لا إعلانات، لا حسابات سحابية، ولا تتبع للبيانات الشخصية إطلاقًا.</string>
+    <string name="accessibility_options">التباين العالي وتغيير حجم الخط</string>
+    <string name="high_contrast_toggle">وضع التباين العالي</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">تتبع حركتك بكل وضوح وشفافية</string>
+    <string name="onboarding_welcome_desc">يعدّ TrueStep خطواتك بدقة، ويوضح لك مصدر كل رقم، ويتكيف مع روتينك اليومي بمرونة.</string>
+    <string name="onboarding_privacy_title">100% دون إنترنت وبخصوصية تامة</string>
+    <string name="onboarding_privacy_desc">يعمل تتبع الخطوات العادي محليًا بالكامل على جهازك. لا نطلب موقع GPS أو بريدًا إلكترونيًا أو خوادم سحابية.</string>
+    <string name="onboarding_sensor_title">عدّ عتادي دقيق وموفر للطاقة</string>
+    <string name="onboarding_sensor_desc">نستخدم حساس عدّ الخطوات العتادي الموفر للبطارية في أندرويد مع تحديثات مجمعة لتوفير الطاقة.</string>
+    <string name="onboarding_goal_title">اختر هدفك اليومي للبدء</string>
+    <string name="onboarding_start_button">ابدأ الآن</string>
+    <string name="onboarding_next">التالي</string>
+    <string name="onboarding_skip">تخطي</string>
+    <string name="onboarding_trust_badge">✨ مبني على مبدأ الثقة</string>
+    <string name="onboarding_trust_bullet_1">• رؤية وتوضيح مصدر كل خطوة مسجلة بدقة.</string>
+    <string name="onboarding_trust_bullet_2">• توضيح البيانات المفقودة أو المتداخلة بين الأجهزة.</string>
+    <string name="onboarding_trust_bullet_3">• أهداف متكيفة تمنع الإرهاق والشعور بالذنب.</string>
+    <string name="onboarding_hc_title">Health Connect (اختياري)</string>
+    <string name="onboarding_hc_desc">قراءة سجلات الخطوات من الساعات الذكية</string>
+    <string name="onboarding_hc_btn">اتصال</string>
+    <string name="onboarding_notif_title">إشعار العد المباشر</string>
+    <string name="onboarding_notif_desc">يحافظ على دقة العد واستمراره بالخلفية</string>
+    <string name="onboarding_notif_btn">سماح</string>
+    <string name="onboarding_custom_goal">هدف مخصص</string>
+    <string name="onboarding_custom_goal_label">هدف الخطوات اليومي</string>
+    <string name="onboarding_carrying_title">أين تحمل هاتفك عادة؟</string>
+    <string name="onboarding_carrying_desc">يقوم التطبيق بضبط حساسية الحساس لتناسب طريقتك المفضلة في حمل الهاتف.</string>
+
+    <!-- Days of the week -->
+    <string name="day_monday">الإثنين</string>
+    <string name="day_tuesday">الثلاثاء</string>
+    <string name="day_wednesday">الأربعاء</string>
+    <string name="day_thursday">الخميس</string>
+    <string name="day_friday">الجمعة</string>
+    <string name="day_saturday">السبت</string>
+    <string name="day_sunday">الأحد</string>
+    <string name="active_data_feeds">مصادر البيانات النشطة</string>
+    <string name="confidence_badge_high">دقة عالية</string>
+    <string name="confidence_badge_reconciled">مصادر موحدة</string>
+    <string name="min_goal_completed_inline">تم إنجاز الحد الأدنى! متبقي %1$d خطوة للهدف.</string>
+    <string name="steps_to_target_inline">%1$d خطوة متبقية للهدف اليومي</string>
+
+    <!-- Notification Service -->
+    <string name="notification_channel_name">عداد TrueStep</string>
+    <string name="notification_channel_desc">يعرض عدد الخطوات الحالي في الخلفية</string>
+    <string name="notification_title">TrueStep نشط الآن</string>
+    <string name="notification_text_format">%1$d خطوة اليوم • %2$s</string>
+
+    <!-- Additional UI & Localization -->
+    <string name="quick_presets">خيارات سريعة</string>
+    <string name="goals_met_filter">الأهداف المحققة</string>
+    <string name="with_notes_filter">مع ملاحظات</string>
+    <string name="all_filter">الكل (%1$d)</string>
+    <string name="rest_badge">راحة</string>
+    <string name="consecutive_days">أيام متتالية</string>
+    <string name="all_time_total">الإجمالي الكلي</string>
+    <string name="distance_traveled">المسافة المقطوعة</string>
+    <string name="km_left_format">%1$.1f كم متبقية</string>
+    <string name="consistency_desc">%1$d من %2$d أيام حققت الحد الأدنى أو الهدف.</string>
+    <string name="time_of_day_rhythm_desc">توزيع الخطوات عبر فترات الصباح، مشي الظهيرة، والنشاط المسائي.</string>
+    <string name="recalculate_adaptive_goal_btn">إعادة حساب الهدف المتكيف من متوسط 7 أيام</string>
+    <string name="status_active">نشط</string>
+    <string name="status_syncing">جارٍ المزامنة…</string>
+    <string name="export_csv_btn">تصدير السجل كملف CSV</string>
+    <string name="export_json_btn">تصدير السجل كملف JSON</string>
+    <string name="load_demo_data_btn">تحميل بيانات تجريبية (للمعاينة فقط)</string>
+    <string name="sync_health_connect_btn">مزامنة خطوات Health Connect</string>
+    <string name="theme_card_desc">اختر من بين سمات مصممة بعناية مع ألوان وتنسيقات أنيقة.</string>
+    <string name="milestones_title">الإنجازات والأوسمة</string>
+    <string name="no_milestones_unlocked">امشِ وحقق أهدافك اليومية لفتح الإنجازات والأوسمة!</string>
+
+    <!-- Settings Refactoring Strings -->
+    <string name="section_notifications">الإشعارات والتتبع المباشر</string>
+    <string name="notifications_desc">تخصيص إشعار الحالة المستمر وسلوك العد بالخلفية.</string>
+    <string name="live_notification_mode">إشعار عداد الخطوات المباشر</string>
+    <string name="live_notification_mode_desc">عرض عدد الخطوات الحالي ونسبة التقدم في شريط الإشعارات. عند التعطيل، يظهر إشعار صامت ومصغر.</string>
+    <string name="live_notification_active_status">العداد المباشر نشط</string>
+    <string name="live_notification_silent_status">إشعار صامت ومصغر</string>
+    <string name="high_contrast_desc">تعزيز تباين الألوان وحدود البطاقات ووضوح النصوص في التطبيق.</string>
+    <string name="choose_theme_button">اختيار المظهر</string>
+    <string name="active_theme_label">المظهر النشط</string>
+    <string name="theme_sheet_title">اختر مظهر التطبيق</string>
+    <string name="theme_sheet_subtitle">اختر من بين 16 سمة مصممة بعناية مع ألوان وتنسيقات أنيقة.</string>
+    <string name="section_troubleshooting">صحة الجهاز والتشخيصات</string>
+    <string name="sensor_diagnostics">تشخيص الحساسات</string>
+    <string name="battery_exemption_status">استثناء نشاط الخلفية</string>
+    <string name="view_theme_palette">عرض اللوحة</string>
+    <string name="trust_center_action_title">مركز الثقة والتشخيص</string>
+    <string name="trust_center_action_desc">فحص مستشعرات الأجهزة وقواعد منع التكرار وضمانات الخصوصية.</string>
+    <string name="location_disclosure_title">إشعار استخدام الموقع الجغرافي</string>
+    <string name="location_disclosure_desc">يستخدم TrueStep بيانات الموقع الجغرافي فقط أثناء جلسات المشي الخارجية النشطة لحساب المسافة والسرعة والمسار. تظل جميع البيانات على جهازك ولا تُشارك أو تُرفع مطلقًا. لا يتطلب تتبع الخطوات اليومي المعتاد نظام GPS.</string>
+    <string name="allow_location">متابعة</string>
+    <string name="close">إغلاق</string>
+
+    <!-- Achievements / Milestones (16 items) -->
+    <string name="achievement_goal_4k_title">بداية لطيفة</string>
+    <string name="achievement_goal_4k_desc">الوصول إلى 4,000 خطوة في يوم واحد</string>
+    <string name="achievement_goal_6k_title">تدفق نشط</string>
+    <string name="achievement_goal_6k_desc">الوصول إلى 6,000 خطوة في يوم واحد</string>
+    <string name="achievement_goal_8k_title">رائد الصحة</string>
+    <string name="achievement_goal_8k_desc">الوصول إلى 8,000 خطوة في يوم واحد</string>
+    <string name="achievement_goal_10k_title">عشرة آلاف كلاسيكية</string>
+    <string name="achievement_goal_10k_desc">الوصول إلى 10,000 خطوة في يوم واحد</string>
+    <string name="achievement_goal_12k_title">تجاوز الهدف</string>
+    <string name="achievement_goal_12k_desc">الوصول إلى 12,000 خطوة في يوم واحد</string>
+    <string name="achievement_goal_15k_title">قمة المشي</string>
+    <string name="achievement_goal_15k_desc">الوصول إلى 15,000 خطوة في يوم واحد</string>
+    <string name="achievement_goal_20k_title">خطوات فائقة</string>
+    <string name="achievement_goal_20k_desc">الوصول إلى 20,000 خطوة في يوم واحد</string>
+    <string name="achievement_goal_25k_title">أسطورة الماراثون</string>
+    <string name="achievement_goal_25k_desc">الوصول إلى 25,000 خطوة في يوم واحد</string>
+
+    <string name="achievement_days_1_title">بداية الرحلة</string>
+    <string name="achievement_days_1_desc">أكمل يومك الأول</string>
+    <string name="achievement_days_3_title">بناء الإيقاع</string>
+    <string name="achievement_days_3_desc">سجّل نشاطك لمدة 3 أيام</string>
+    <string name="achievement_days_7_title">أسبوع كامل</string>
+    <string name="achievement_days_7_desc">سجّل نشاطك لمدة 7 أيام</string>
+    <string name="achievement_days_14_title">تركيز أسبوعين</string>
+    <string name="achievement_days_14_desc">سجّل نشاطك لمدة 14 يومًا</string>
+    <string name="achievement_days_30_title">شهر من الحركة</string>
+    <string name="achievement_days_30_desc">سجّل نشاطك لمدة 30 يومًا</string>
+    <string name="achievement_days_60_title">التزام لشهرين</string>
+    <string name="achievement_days_60_desc">سجّل نشاطك لمدة 60 يومًا</string>
+    <string name="achievement_days_90_title">رائد ربع العام</string>
+    <string name="achievement_days_90_desc">سجّل نشاطك لمدة 90 يومًا</string>
+    <string name="achievement_days_180_title">بطل نصف العام</string>
+    <string name="achievement_days_180_desc">سجّل نشاطك لمدة 180 يومًا</string>
+
+    <!-- Streaks / Multiplier Tiers (12 items) -->
+    <string name="streak_tier_1_title">الشرارة الأولى</string>
+    <string name="streak_tier_3_title">زخم ثلاثة أيام</string>
+    <string name="streak_tier_7_title">عادة أسبوعية</string>
+    <string name="streak_tier_13_title">لا يُقهر</string>
+    <string name="streak_tier_21_title">إتقان العادة</string>
+    <string name="streak_tier_25_title">ربع قرن</string>
+    <string name="streak_tier_36_title">مواكب ملتزم</string>
+    <string name="streak_tier_50_title">المعيار الذهبي</string>
+    <string name="streak_tier_60_title">دينامو الشهرين</string>
+    <string name="streak_tier_80_title">خطوات حديدية</string>
+    <string name="streak_tier_100_title">إنجاز المئة</string>
+    <string name="streak_tier_120_title">أسطورة حية</string>
+    <string name="streak_days_consecutive_format">%1$d أيام متتالية للهدف</string>
+
+    <!-- Virtual Walk Destinations (12 items) -->
+    <string name="dest_park_name">حديقة المدينة المركزية</string>
+    <string name="dest_park_desc">نزهة منعشة في قلب المدينة</string>
+    <string name="dest_bridge_name">الجسر المعلق الذهبي</string>
+    <string name="dest_bridge_desc">عبور المضيق الخلاب الكبير</string>
+    <string name="dest_lake_name">بحيرة الجبال الألبية</string>
+    <string name="dest_lake_desc">هواء جبلي منعش ومياه صافية</string>
+    <string name="dest_marathon_name">أسطورة الماراثون</string>
+    <string name="dest_marathon_desc">المعيار التاريخي لقوة التحمل</string>
+    <string name="dest_canyon_name">أخدود الصخور الحمراء</string>
+    <string name="dest_canyon_desc">آفاق شاسعة من الصخور المنحوتة</string>
+    <string name="dest_fuji_name">مسار جبل فوجي</string>
+    <string name="dest_fuji_desc">جولة حول القمة البركانية المقدسة</string>
+    <string name="dest_pyramids_name">هضبة الجيزة والنيل</string>
+    <string name="dest_pyramids_desc">استكشاف عجائب الصحراء التاريخية</string>
+    <string name="dest_camino_name">مسار كامينو</string>
+    <string name="dest_camino_desc">طريق تاريخي للتأمل والمشي الهادئ</string>
+    <string name="dest_iceland_name">مسار آيسلندا الدائري</string>
+    <string name="dest_iceland_desc">شلالات، رمال سوداء، وأنهار جليدية</string>
+    <string name="dest_wall_name">السور الأثري العظيم</string>
+    <string name="dest_wall_desc">سلسلة حجرية عريقة تعانق قمم الجبال</string>
+    <string name="dest_sahara_name">عبور واحة الصحراء الكبرى</string>
+    <string name="dest_sahara_desc">كثبان رملية ذهبية تحت نجوم الليل</string>
+    <string name="dest_everest_name">ممر قاعدة الهيمالايا</string>
+    <string name="dest_everest_desc">المشي نحو قمة سقف العالم</string>
+    <string name="dest_total_km_format">إجمالي %1$.1f كم</string>
+
+    <!-- Theme Names & Descriptions (16 items) -->
+    <string name="theme_classic_teal_title">أزرق كلاسيكي</string>
+    <string name="theme_classic_teal_desc">درجات هادئة ومتوازنة مستوحاة من المحيط</string>
+    <string name="theme_apple_health_title">صحة نقية</string>
+    <string name="theme_apple_health_desc">تصميم أبيض ناصع مع لمسات حيوية</string>
+    <string name="theme_bold_vibrant_title">حيوي وجريء</string>
+    <string name="theme_bold_vibrant_desc">طاقة عالية من الكوبالت والمرجان المشرق</string>
+    <string name="theme_data_dashboard_title">لوحة البيانات</string>
+    <string name="theme_data_dashboard_desc">رمادي دقيق مع لمسات تقنية واضحة</string>
+    <string name="theme_neon_futuristic_title">نيون مستقبلي</string>
+    <string name="theme_neon_futuristic_desc">أجواء ليلية مع توهج نيون بنفسجي</string>
+    <string name="theme_glassmorphism_title">زجاج عصري</string>
+    <string name="theme_glassmorphism_desc">طبقات زجاجية شبه شفافة أنيقة</string>
+    <string name="theme_frosted_glass_title">زجاج مثلج</string>
+    <string name="theme_frosted_glass_desc">بلورات جليدية وأزرق قطبي بارد</string>
+    <string name="theme_soft_pastel_title">باستيل ناعم</string>
+    <string name="theme_soft_pastel_desc">خزامى رقيقة وألوان وردية دافئة</string>
+    <string name="theme_bold_gradient_title">تدرج جريء</string>
+    <string name="theme_bold_gradient_desc">إشراقة الغروب والشفق العميق</string>
+    <string name="theme_gamified_gold_title">ذهبي بطولي</string>
+    <string name="theme_gamified_gold_desc">كهرمان بطولي وذهب الكؤوس مع حجر السج</string>
+    <string name="theme_nature_organic_title">طبيعي عضوي</string>
+    <string name="theme_nature_organic_desc">طين فخاري دافئ، رمال، وميرمية</string>
+    <string name="theme_playful_gamified_title">مرح وتحفيزي</string>
+    <string name="theme_playful_gamified_desc">أجواء ألعاب حيوية مع إضاءات مبهجة</string>
+    <string name="theme_gradient_mesh_title">شبكة التدرج</string>
+    <string name="theme_gradient_mesh_desc">مزيج ألوان عصري وانسيابي</string>
+    <string name="theme_dual_tone_title">ثنائي اللون</string>
+    <string name="theme_dual_tone_desc">تباين جذاب بين الأزرق الداكن والمشمشي</string>
+    <string name="theme_card_dashboard_title">بطاقات البيانات</string>
+    <string name="theme_card_dashboard_desc">بطاقات منظمة ومقسمة بحدود واضحة</string>
+    <string name="theme_m3_dark_title">ماتيريال 3 داكن</string>
+    <string name="theme_m3_dark_desc">مظهر داكن عميق مع أسطح نغمية معبرة</string>
+
+    <!-- Sensors & Telemetry -->
+    <string name="sensor_hw_step_counter">حساس عدّ الخطوات العتادي (TYPE_STEP_COUNTER)</string>
+    <string name="sensor_hw_step_detector">حساس كشف الخطوات العتادي (TYPE_STEP_DETECTOR)</string>
+    <string name="sensor_accelerometer_fallback">كاشف خطوات بمقياس التسارع (TYPE_ACCELEROMETER)</string>
+    <string name="sensor_none_available">لا يتوفر حساس على الجهاز</string>
+    <string name="sensor_status_title">حالة حساس العتاد</string>
+    <string name="sensor_unavailable_desc">الحساس غير متاح (وضع المحاكاة/الاحتياط)</string>
+    <string name="status_offline">غير متصل</string>
+    <string name="accelerometer_fallback_notice">ℹ️ وضع مقياس التسارع الاحتياطي نشط: يفتقر هاتفك إلى معالج مخصص لعدّ الخطوات. يقوم التطبيق بعدّ خطواتك باستخدام مقياس التسارع ثلاثي المحاور مع تنقية رقمية للإشارات.</string>
+    <string name="deduplication_notice">إذا سجل هاتفك وساعتك نشاطًا في نفس الفترة الزمنية، يقوم التطبيق بدمج الفترات المتداخلة في عدّ موحد لمنع التكرار.</string>
+    <string name="confidence_status_format">مستوى الدقة: %1$s • المصدر الأساسي: %2$s</string>
+    <string name="confidence_badge_uncertain">غير مؤكد / قديم</string>
+    <string name="carrying_mode_subtitle">معايرة حساسية الحساس لتقليل احتساب الخطوات الخاطئة</string>
+
+    <!-- Walking Sessions Sheet -->
+    <string name="walk_session_title">جلسة نشاط المشي</string>
+    <string name="walk_session_desc">تتبع المدة والخطوات للمشيات المخصصة.</string>
+    <string name="choose_session_type">اختر نوع الجلسة</string>
+    <string name="walk_mode_indoor">مشي داخلي</string>
+    <string name="walk_mode_outdoor">مشي خارجي</string>
+    <string name="walk_mode_treadmill">جهاز المشي</string>
+    <string name="optional_gps_route">مسار GPS اختياري</string>
+    <string name="optional_gps_route_desc">يعمل فقط أثناء هذه الجلسة. التتبع المعتاد لا يستخدم GPS مطلقًا.</string>
+    <string name="start_session_format">بدء %1$s</string>
+    <string name="past_walking_sessions">جلسات المشي السابقة</string>
+    <string name="delete_session">حذف الجلسة</string>
+    <string name="session_steps_label">خطوات الجلسة</string>
+    <string name="finish_walk_button">إنهاء المشي</string>
+    <string name="walk_completed_title">اكتمل المشي! 🎉</string>
+    <string name="walk_completed_summary">أكملت %1$d خطوة (%2$.2f كم) خلال %3$d دقيقة.</string>
+    <string name="session_notes_label">ملاحظات الجلسة (اختياري)</string>
+    <string name="session_notes_placeholder">مثال: مشي في الحديقة في طقس مشمس</string>
+    <string name="save_walk_to_history">حفظ المشي في السجل</string>
+
+    <!-- Goals Screen Tiers & Presets -->
+    <string name="goals_subtitle">أهداف مرنة ومتكيفة مصممة خصيصًا حسب مستوى حركتك الفعلي.</string>
+    <string name="three_daily_tiers_title">مستوياتك اليومية الثلاثة</string>
+    <string name="tier_minimum_title">الحد الأدنى (60%)</string>
+    <string name="tier_minimum_sub">قاعدة السلسلة</string>
+    <string name="tier_target_title">الهدف (100%)</string>
+    <string name="tier_target_sub">الهدف اليومي</string>
+    <string name="tier_stretch_title">الهدف المتقدم (120%)</string>
+    <string name="tier_stretch_sub">إنجاز إضافي</string>
+    <string name="three_tiers_explanation">إكمال الحد الأدنى يُحتسب كيوم نشاط ناجح ويحافظ على استمرارية سلسلتك.</string>
+    <string name="daily_target_goal_title">هدف الخطوات اليومي</string>
+    <string name="preset_4k">4 آلاف (هادئ)</string>
+    <string name="preset_7_5k">7.5 ألف (نشط)</string>
+    <string name="preset_10k">10 آلاف (قياسي)</string>
+    <string name="preset_12_5k">12.5 ألف (متقدم)</string>
+    <string name="adaptive_goals_adjust_sub">يتكيف مع متوسط نشاطك لآخر 7 أيام</string>
+    <string name="recalculate_from_baseline_btn">إعادة الحساب من متوسط 7 أيام</string>
+    <string name="weekend_target_title">هدف معدل لعطلة نهاية الأسبوع</string>
+    <string name="weekend_target_desc">تحديد هدف منفصل ليومي السبت والأحد</string>
+    <string name="weekend_target_label">هدف عطلة الأسبوع:</string>
+    <string name="recovery_mode_lower_sub">أهداف مخفضة أثناء التعب أو المرض أو السفر</string>
+    <string name="days_count_format">%1$d أيام</string>
+    <string name="recalculate_adaptive_sub">تحديث خط الأساس باستخدام خطواتك المحققة لآخر 7 أيام</string>
+
+    <!-- Settings Subtitles & Diagnostics -->
+    <string name="battery_optimization_title">استثناء تحسين البطارية</string>
+    <string name="battery_optimization_sub">منع إيقاف عد الخطوات أثناء النوم العميق للجهاز بواسطة النظام</string>
+    <string name="oem_battery_guide_title">حماية الخلفية والتشغيل التلقائي</string>
+    <string name="oem_battery_guide_sub">ضبط إعدادات %1$s لمنع إيقاف التتبع في الخلفية</string>
+    <string name="oem_detected_prefix">النظام المكتشف: %1$s</string>
+    <string name="oem_explanation">استثناء تحسين البطارية التقليدي يحمي فقط من وضع السكون القياسي. وتعتمد الشركات المصنعة (%1$s) على برامج إيقاف إضافية تقوم بتجميد عداد الخطوات ما لم يتم تفعيل التشغيل التلقائي أو السماح بالنشاط في الخلفية.</string>
+    <string name="open_device_settings_btn">فتح إعدادات الجهاز</string>
+    <string name="offline_pledge_sub">دون حسابات سحابية • دون إعلانات • دون أي تتبع</string>
+    <string name="play_store_title">TrueStep: عداد الخطوات والمشي</string>
+    <string name="play_store_short_desc">عداد خطوات دقيق وبدون إنترنت لحساب خطواتك وحماية خصوصيتك بدون إعلانات.</string>
+    <string name="rate_app_title">تقييم TrueStep على Google Play</string>
+    <string name="rate_app_sub">ادعم تطوير عداد خطوات خاص ودون إنترنت</string>
+    <string name="sync_health_connect_sub">توفيق سجلات الساعة الذكية مع حساس الجهاز</string>
+    <string name="export_csv_sub">تنزيل سجل خطواتك ومسافاتك اليومية كجدول بيانات</string>
+    <string name="export_json_sub">تنزيل قاعدة البيانات الكاملة بصيغة JSON مهيكلة</string>
+    <string name="load_demo_sub">إنشاء 14 يومًا من سجل المشي الواقعي للمعاينة</string>
+    <string name="accessibility_high_contrast_sub">تحسين تباين الخطوط وتوضيح الحدود لتحسين الرؤية في الخارج</string>
+    <string name="accessibility_scaling_title">التحجيم الديناميكي ومناطق اللمس</string>
+    <string name="accessibility_scaling_sub">جميع الأزرار تتوافق مع معيار 48dp وتستجيب لحجم خط النظام</string>
+    <string name="privacy_guarantees_title">ضمانات الخصوصية</string>
+    <string name="privacy_bullet_1">• محلي بالكامل: تجري كافة العمليات الحسابية على معالج جهازك.</string>
+    <string name="privacy_bullet_2">• بلا إعلانات أو تتبع: لا توجد شبكات إعلانية أو أدوات تتبع خارجية.</string>
+    <string name="privacy_bullet_3">• لا يتطلب GPS: يعتمد عدّ الخطوات على حساس الخطوات العتادي.</string>
+    <string name="privacy_bullet_4">• فلسفة داعمة: عادات صحية مستدامة دون إحباط أو شعور بالذنب.</string>
+    <string name="live_notification_sub_active">يعرض الإشعار المستمر عدد الخطوات المباشر ونسبة تحقيق الهدف اليومي</string>
+    <string name="live_notification_sub_minimal">إشعار مصغر صامت: يحافظ على نشاط خدمة التتبع مع تقليل التشتت البصري</string>
+
+    <!-- Inline Formats & Miscellaneous -->
+    <string name="goal_min_inline_format">الحد الأدنى: %,d</string>
+    <string name="goal_target_inline_format">الهدف: %,d</string>
+    <string name="goal_stretch_inline_format">الهدف المتقدم: %,d</string>
+    <string name="time_no_data">—</string>
+    <string name="decrease_goal">تقليل الهدف</string>
+    <string name="increase_goal">زيادة الهدف</string>
+    <string name="has_note">توجد ملاحظة</string>
+    <string name="steps_count_format">%,d خطوة</string>
+    <string name="percent_of_goal_format">%1$d%% من الهدف</string>
+    <string name="session_summary_item_format">%1$s • %2$d دقيقة</string>
+    <string name="session_steps_km_format">%1$d خطوة (%2$.2f كم)</string>
+    <string name="status_granted">تم المنح</string>
+
+    <!-- Splash Screen & Motivational Quotes -->
+    <string name="splash_app_title">ترو ستيب</string>
+    <string name="splash_tagline">كل خطوة تهم لصحتك وعافيتك</string>
+    <string name="splash_quote_label">نصيحة المشي اليومية</string>
+    <string name="splash_loading_status">جارٍ تجهيز إحصائيات خطواتك…</string>
+    <string name="splash_quote_1">رحلة الألف ميل تبدأ بخطوة واحدة.</string>
+    <string name="splash_quote_2">المشي لمدة 30 دقيقة يومياً يعزز مزاجك وصحة قلبك بشكل ملحوظ.</string>
+    <string name="splash_quote_3">الخطوات اليومية الصغيرة تتراكم لتصنع لياقة تغير حياتك.</string>
+    <string name="splash_quote_4">الحركة دواء. امشِ اليوم من أجل غد أكثر قوة.</string>
+    <string name="splash_quote_5">الاستمرارية تتفوق على الشدة. حافظ على سلسلتك خطوة بخطوة.</string>
+    <string name="splash_quote_6">المشي في الهواء الطلق يصفي الذهن ويشعل الأفكار المتجددة.</string>
+    <string name="splash_logo_content_desc">شعار تطبيق ترو ستيب</string>
+
+    <!-- Settings Replay Onboarding -->
+    <string name="settings_replay_onboarding_title">إعادة جولة الإعداد</string>
+    <string name="settings_replay_onboarding_sub">مراجعة خيارات الأهداف وأنماط حمل الجهاز</string>
+
+    <!-- Journey, Quests, Streak Freezes & Retention -->
+    <string name="nav_journey">الرحلة</string>
+    <string name="nav_quests">المهمات</string>
+    <string name="nav_trophies">الكؤوس</string>
+    <string name="nav_expeditions">المسارات</string>
+    <string name="journey_title">الرحلة والمهمات</string>
+    <string name="journey_subtitle">استكشف المسارات وأكمل المهمات اليومية وحافظ على استمرارية سلسلتك</string>
+    <string name="tab_quests">المهمات</string>
+    <string name="tab_expeditions">المسارات</string>
+    <string name="tab_streak_vault">خزينة السلسلة</string>
+    <string name="tab_trophies">الكؤوس</string>
+
+    <!-- Streak Freezes & Vault -->
+    <string name="streak_vault_title">خزينة حماية السلسلة</string>
+    <string name="streak_vault_desc">اكسب تجميد سلسلة واحد كل 7 أيام متتالية من تحقيق الهدف. التجميدات المخزنة تحمي سلسلتك تلقائيًا إذا فاتك يوم.</string>
+    <string name="banked_freezes_label">التجميدات المتوفرة</string>
+    <string name="banked_freezes_count">%1$d / 2 تجميد متاح</string>
+    <string name="streak_protection_active">حماية السلسلة نشطة</string>
+    <string name="streak_protection_protected_today">تمت حماية السلسلة! تم تطبيق تجميد للحفاظ على استمراريتك.</string>
+    <string name="earn_next_freeze_hint">متبقي %1$d أيام هدف لكسب التجميد القادم</string>
+    <string name="freeze_max_banked">الحد الأقصى للتجميدات مكتمل (2/2). أنت محمي بالكامل!</string>
+    <string name="use_freeze_button">السلسلة محمية</string>
+
+    <!-- Daily Mini-Quests -->
+    <string name="daily_quests_title">مهمات اليوم المصغرة</string>
+    <string name="daily_quests_sub">تحديات مشي مصغرة تتجدد عند منتصف الليل</string>
+    <string name="quest_completed_badge">مكتملة</string>
+    <string name="quest_reward_format">+%1$d نقطة</string>
+    <string name="quest_all_completed">أكملت جميع مهمات اليوم! إنجاز رائع.</string>
+    <string name="quest_morning_title">انطلاقة الصباح</string>
+    <string name="quest_morning_desc">سجّل 500 خطوة على الأقل قبل الساعة 10:00 صباحًا</string>
+    <string name="quest_brisk_title">خطوات هوائية سريعة</string>
+    <string name="quest_brisk_desc">امشِ لمدة 15 دقيقة نشطة بوتيرة سريعة</string>
+    <string name="quest_midday_title">نشاط منتصف اليوم</string>
+    <string name="quest_midday_desc">حقّق 50% من هدفك اليومي</string>
+    <string name="quest_goal_master_title">بطل الهدف اليومي</string>
+    <string name="quest_goal_master_desc">حقّق 100% من هدف خطواتك اليومي</string>
+    <string name="quest_twilight_title">نزهة المساء</string>
+    <string name="quest_twilight_desc">امشِ 1,000 خطوة بعد الساعة 6:00 مساءً</string>
+
+    <!-- World Trail Expeditions -->
+    <string name="expedition_trail_title">رحلات المسارات العالمية</string>
+    <string name="expedition_trail_sub">حوّل خطواتك التراكمية إلى مسارات شهيرة حول العالم</string>
+    <string name="active_expedition_label">الرحلة الحالية</string>
+    <string name="next_landmark_label">المعلم التالي</string>
+    <string name="trail_progress_format">%1$.1f / %2$.1f كم (%3$d%%)</string>
+    <string name="completed_expeditions_title">الرحلات المكتملة</string>
+    <string name="no_completed_expeditions">واصل المشي لإكمال أول رحلة استكشافية عالمية!</string>
+
+    <!-- Cadence & Real-Time Walk Session -->
+    <string name="cadence_spm_label">الإيقاع</string>
+    <string name="cadence_spm_unit">خطوة/د</string>
+    <string name="cadence_spm_format">%1$d خطوة/د</string>
+    <string name="zone_stroll">تنزه خفيف</string>
+    <string name="zone_moderate">معتدل</string>
+    <string name="zone_brisk">هوائي سريع</string>
+    <string name="zone_power">مشي قوي</string>
+    <string name="brisk_active_minutes">الدقائق السريعة</string>
+    <string name="average_cadence_label">متوسط الإيقاع</string>
+
+    <!-- Milestone Celebration & Share Card -->
+    <string name="celebration_title">تم تحقيق الإنجاز! 🎉</string>
+    <string name="celebration_praise">التزام مذهل! لقد حققت للتو هدفك اليومي.</string>
+    <string name="celebration_share_btn">مشاركة بطاقة الإنجاز</string>
+    <string name="celebration_dismiss">مواصلة المشي</string>
+    <string name="share_card_title">إنجازي مع ترو ستيب</string>
+    <string name="share_card_text_format">🚶 إنجاز TrueStep: %1$s خطوة (%2$.2f كم) اليوم! 🔥 السلسلة: %3$d أيام.\nتتبع خطواتك 100%% دون إنترنت وبدون إعلانات مع TrueStep: عداد الخطوات والمشي.\nhttps://play.google.com/store/apps/details?id=com.aistudio.steptrack.pgydle</string>
+    <string name="share_sheet_chooser_title">شارك إنجاز المشي الخاص بك</string>
+    <string name="share_card_brand_badge">TrueStep • عداد خطوات معتمد ومحلي</string>
+
+    <!-- In-App Rating & Review Engine -->
+    <string name="rating_prompt_title">هل يعجبك المشي مع TrueStep؟</string>
+    <string name="rating_prompt_body">لقد بنيت عادة مشي مذهلة! TrueStep يعمل 100% دون إنترنت وخالٍ تمامًا من الإعلانات المزعجة. تقييم 5 نجوم على Google Play يساعد محبي المشي الآخرين في اكتشاف هذا التطبيق الخاص.</string>
+    <string name="rating_rate_play_store">تقييم على Google Play ⭐</string>
+    <string name="rating_feedback_btn">إرسال ملاحظات</string>
+    <string name="rating_maybe_later">ربما لاحقًا</string>
+    <string name="rating_never_ask">عدم السؤال مجددًا</string>
+    <string name="rating_how_do_you_feel">كيف كانت تجربتك حتى الآن؟</string>
+    <string name="rating_thank_you">شكرًا لدعمك لتتبع الصحة الخاص وبدون إنترنت!</string>
+
+    <!-- Home Daily Briefing -->
+    <string name="briefing_morning">صباح الخير! ابدأ يومك بنشاط مع مشي صباحي مبهج.</string>
+    <string name="briefing_afternoon">واصل تقدمك! أنت في منتصف الطريق اليوم.</string>
+    <string name="briefing_evening">أمسية طيبة. استرخِ وراجع خطواتك لليوم.</string>
+    <string name="home_quests_glance_format">مهمات اليوم: %1$d من %2$d مكتملة</string>
+    <string name="home_view_journey">عرض الرحلة</string>
+
+    <!-- In-App Privacy Policy & Compliance -->
+    <string name="privacy_policy_title">سياسة الخصوصية وحقوق البيانات</string>
+    <string name="privacy_policy_sub">اقرأ ميثاقنا الكامل لسلامة وسرية البيانات دون إنترنت</string>
+    <string name="privacy_policy_body">تم تصميم تطبيق TrueStep وفق مبدأ الخصوصية التامة منذ البداية:\n\n1. انعدام جمع البيانات: تظل سجلات خطواتك ومسارات المشي وأهدافك الصحية محفوظة محليًا داخل جهازك فقط. لا توجد خوادم بعيدة أو قواعد بيانات تحليلية أو أدوات تتبع إعلانية.\n\n2. الوصول إلى Health Connect: يطلب التطبيق إذن قراءة الخطوات فقط لعرض النشاط اليومي الموحد. لا يقوم التطبيق بتعديل أو كتابة أي سجلات في Health Connect.\n\n3. استخدام مستشعر العتاد: تتم معالجة عدّ الخطوات اليومي مباشرة عبر حساس الخطوات العتادي لهاتفك دون أي تتبع للموقع الجغرافي.\n\n4. نظام GPS الاختياري: تُستخدم أذونات الموقع الجغرافي فقط إذا بدأت جلسة مشي خارجية نشطة مع تفعيل GPS. وتظل إحداثيات المسار محفوظة في الذاكرة المؤقتة أثناء الجلسة ولا تُرفع أبدًا.\n\n5. الملكية الكاملة للبيانات: يمكنك تصدير سجل خطواتك بالكامل في أي وقت كملف CSV أو JSON، أو حذف جميع البيانات المحلية نهائيًا بضغطة واحدة.</string>
+    <string name="onboarding_sensor_perm_title">حساس عدّ الخطوات العتادي</string>
+    <string name="onboarding_sensor_perm_desc">تفعيل عداد الخطوات العتادي المحلي للعد في الخلفية بدقة</string>
+    <string name="onboarding_allow_btn">سماح</string>
+    <string name="read_privacy_policy">قراءة سياسة الخصوصية</string>
+
+    <!-- Cybernetic Stride Theme -->
+    <string name="theme_cybernetic_stride_title">الخطوة السيبرانية</string>
+    <string name="theme_cybernetic_stride_desc">واجهة سيبرانية مستقبلية مفعمة بالطاقة مع أسطح سوداء وتوهج كهربائي</string>
+
+    <!-- Hunter RPG & Loadout -->
+    <string name="hero_title">ملف الصياد</string>
+    <string name="hero_subtitle">عتاد وتجهيزات الخطوة السيبرانية</string>
+    <string name="hero_default_name">رين أماميا</string>
+    <string name="hero_class_title">مرسل الرياح • فائق السرعة</string>
+    <string name="hero_combat_power">القوة القتالية</string>
+    <string name="hero_cp_unit">نقطة قوة</string>
+    <string name="hero_mana_overdrive">طاقة المانا الفائقة</string>
+    <string name="hero_mana_charged">مشحونة</string>
+    <string name="hero_sparks_banked">شرارات مخزنة</string>
+    <string name="hero_spark_desc">توليد +1 شرارة لكل 1,000 خطوة</string>
+    <string name="currency_sparks">شرارات</string>
+    <string name="currency_cores">أنوية</string>
+    <string name="currency_shards">شظايا</string>
+    <string name="tab_hero">البطل</string>
+    <string name="active_loadout_title">العتاد النشط</string>
+    <string name="active_loadout_slots">المناطق المضبوطة: 4/4</string>
+    <string name="gear_tune_button">ضبط</string>
+    <string name="gear_equip_button">تجهيز</string>
+    <string name="gear_equipped_badge">مجهز</string>
+    <string name="gear_locked_badge">مغلق</string>
+    <string name="gear_forge_title">المصنع السيبراني</string>
+    <string name="gear_forge_desc">دمج شظايا العتاد وكسر سرعة المزايا</string>
+    <string name="gear_forge_enhance">ترقية</string>
+    <string name="storage_vault_title">مستودع العتاد</string>
+    <string name="vault_capacity_format">السعة: %1$d/%2$d</string>
+    <string name="vault_filter_all">الكل</string>
+    <string name="vault_filter_footwear">أحذية</string>
+    <string name="vault_filter_cores">أنوية</string>
+    <string name="vault_filter_boosts">معززات</string>
+    <string name="vault_filter_materials">مواد</string>
+    <string name="gear_stat_cadence">+%1$d%% إيقاع</string>
+    <string name="gear_stat_stamina">+%1$d%% طاقة</string>
+    <string name="gear_stat_exp">+%1$d%% خبرة</string>
+    <string name="gear_stat_fortune">+%1$d%% حظ</string>
+    <string name="gear_perk_label">ميزة</string>
+    <string name="tune_stats_title">ضبط الخصائص</string>
+    <string name="confirm_loadout_title">تأكيد العتاد</string>
+    <string name="gear_inspect_title">فحص العتاد</string>
+
+    <!-- Specific Gear Names & Descriptions -->
+    <string name="gear_neon_phantom_title">خطوة الشبح النيونية X-1</string>
+    <string name="gear_neon_phantom_desc">مستوى 8 حذاء ملحمي • انطلاق فائق السرعة</string>
+    <string name="gear_zephyr_engine_title">محرك زفير الرياح العاصف</string>
+    <string name="gear_zephyr_engine_desc">مستوى 5 نواة نادرة • تحدي الرياح</string>
+    <string name="gear_nanoweave_vest_title">سترة شيبويا النانوية</string>
+    <string name="gear_nanoweave_vest_desc">مستوى 7 سترة ملحمية • حلقة حركية</string>
+    <string name="gear_chrono_watch_title">ساعة الكرونو السيبرانية</string>
+    <string name="gear_chrono_watch_desc">مستوى 6 كرونو نادر • دقة المسار</string>
+    <string name="gear_vapor_glide_title">أحذية الانزلاق البخاري</string>
+    <string name="gear_vapor_glide_desc">مستوى 4 حذاء نادر • ملائم للأسفلت</string>
+    <string name="gear_apex_pulse_title">قمة النبض الفائق</string>
+    <string name="gear_apex_pulse_desc">مستوى 15 حذاء أسطوري • أثر الشرارات</string>
+    <string name="gear_overclock_battery_title">بطارية كسر السرعة</string>
+    <string name="gear_overclock_battery_desc">توليد مضاعف للشرارات لـ 5,000 خطوة</string>
+    <string name="gear_sync_elixir_title">إكسير مزامنة الخطوات</string>
+    <string name="gear_sync_elixir_desc">+500 خبرة فورية</string>
+    <string name="gear_matrix_core_title">نواة [ماتريكس 4]</string>
+    <string name="gear_matrix_core_desc">محرك تصنيع • لإعادة ضبط خصائص الأحذية</string>
+    <string name="gear_apex_shards_title">شظايا الأوج</string>
+    <string name="gear_apex_shards_desc">مادة تصنيع أحذية نادرة</string>
+
+    <!-- Live Walking HUD Telemetry -->
+    <string name="hud_cadence_supercharged">فائق السرعة</string>
+    <string name="hud_hold_to_complete">اضغط مطولاً للإنهاء</string>
+    <string name="hud_split_lap">تسجيل دورة</string>
+    <string name="hud_lap_logged_toast">تم تسجيل الدورة • %1$d خطوة!</string>
+    <string name="hud_encounter_title">تحدي المواجهة: عدّاء الشبح</string>
+    <string name="hud_encounter_desc">حافظ على إيقاع &gt;115 خطوة/د لتخطي العقدة</string>
+    <string name="hud_encounter_optimal">النطاق: مثالي</string>
+    <string name="hud_encounter_reward">+250 خبرة • نواة نادرة</string>
+    <string name="hud_audio_rhythm">صوت إيقاع الخطوات (145 نبضة/د)</string>
+    <string name="hud_audio_track">عدّاء المدينة الليلية • طوكيو أوفردرايف</string>
+
+    <!-- Post-Workout Raid Summary -->
+    <string name="raid_summary_title">المرحلة 04: صعود شيبويا فائق السرعة</string>
+    <string name="raid_summary_status">تمت المزامنة بنجاح • انتهت الغارة</string>
+    <string name="raid_grade_s">اجتياز برتبة S</string>
+    <string name="raid_grade_a">اجتياز برتبة A</string>
+    <string name="raid_grade_b">اجتياز برتبة B</string>
+    <string name="raid_overdrive_master">سيد السرعة القصوى</string>
+    <string name="raid_km_splits_title">تقسيم الكيلومترات والإيقاع</string>
+    <string name="raid_overdrive_badge">سرعة فائقة (&gt;120 خطوة/د)</string>
+    <string name="raid_loot_cache_title">جوائز الغارة المكتسبة</string>
+    <string name="raid_claim_rewards">استلام المكافآت والعودة</string>
+    <string name="raid_detailed_log">السجل المفصل</string>
+    <string name="raid_send_ghost">إرسال المنافس الشبح</string>
+    <string name="raid_rewards_banked_toast">تم حفظ المكافآت في المستودع بنجاح!</string>
+    <string name="home_aura_synced">الهالة متزامنة</string>
+    <string name="home_aura_overdrive_active">مضاعف السرعة نشط (+20% خبرة)</string>
+    <string name="home_cadence_insight">تسجل إيقاعاً أسرع بنسبة 24% أثناء التنقل الصباحي (8-9 صباحاً).</string>
+    <string name="home_start_live_stride">بدء الجري المباشر</string>
+    <string name="home_live_stride_sub">غارة المرحلة 04 • مسار نيو شيبويا</string>
+
+    <!-- Milestone 12: TrueStep UX Architecture Polish -->
+    <string name="scrub_viewing_hour_format">عرض %1$s • %2$s خطوة</string>
+    <string name="return_to_full_day">العودة إلى اليوم الكامل</string>
+    <string name="view_full_history_link">عرض السجل الكامل</string>
+    <string name="goal_tiers_overview">مستويات الأهداف</string>
+    <string name="active_time_tile_label">وقت النشاط</string>
+    <string name="active_time_mins_format">%1$d دقيقة</string>
+    <string name="pause_tracking_desc">إيقاف تتبع الخطوات مؤقتاً</string>
+    <string name="resume_tracking_desc">استئناف تتبع الخطوات</string>
+    <string name="open_trust_center_action">تفاصيل الثقة والشفافية</string>
+
+    <!-- Milestone 14: Solo Leveling System & Option C Cyber-Gate Expeditions -->
+    <string name="hunter_stat_points_title">مصفوفة سمات الصياد</string>
+    <string name="hunter_stat_points_available">+%1$d نقاط سمات متاحة</string>
+    <string name="hunter_stat_points_none">0 نقاط سمات</string>
+    <string name="hunter_stat_str">القوة (STR)</string>
+    <string name="hunter_stat_str_desc">قوة الخطوة • +15 طاقة قتالية لكل نقطة</string>
+    <string name="hunter_stat_agi">الرشاقة (AGI)</string>
+    <string name="hunter_stat_agi_desc">سرعة الإيقاع • +10% تقييم الإيقاع</string>
+    <string name="hunter_stat_vit">الحيوية (VIT)</string>
+    <string name="hunter_stat_vit_desc">مخزون التحمل • حماية درع الاستمرارية</string>
+    <string name="hunter_stat_sen">الحاسة (SEN)</string>
+    <string name="hunter_stat_sen_desc">إدراك المانا • اكتشاف الشرر والشظايا</string>
+    <string name="hunter_stat_allocated_toast">تم تخصيص نقطة واحدة لـ %1$s! (+15 طاقة قتالية)</string>
+    <string name="cyber_gate_title">حملة الصياد السيبراني</string>
+    <string name="cyber_gate_subtitle">اختراق البوابات البعدية عبر المشي الحقيقي</string>
+    <string name="cyber_gate_combo_format">كومبو X%1$d</string>
+    <string name="cyber_gate_score_format">نقاط الآركيد: %1$,d</string>
+    <string name="cyber_gate_chamber_format">الغرفة %1$d/4: %2$s</string>
+    <string name="cyber_gate_loot_legendary_core">نواة أسطورية (S)</string>
+    <string name="cyber_gate_loot_arcane_chip">شريحة بيانات سحرية</string>
+    <string name="cyber_gate_loot_mystic_dust">غبار غامض (x150)</string>
+    <string name="cyber_gate_loot_cyber_fragment">شظية سيبرانية</string>
+    <string name="cyber_gate_continue_raid">مواصلة الغارة</string>
+    <string name="cyber_gate_boss_approaching">الزعيم يقترب</string>
+    <string name="system_window_header">[ إشعار النظام ]</string>
+    <string name="system_level_up_title">صحوة الصياد • ارتقاء المستوى!</string>
+    <string name="system_level_up_body">حطمت خطواتك الفعلية الحاجز البعدي. ارتقى مستوى الصياد إلى المستوى %1$d! تم منحك +3 نقاط سمات غير مخصصة.</string>
+    <string name="system_quest_arrival_title">وصلت المهمة اليومية!</string>
+    <string name="system_quest_arrival_body">أصدر النظام [المهمة اليومية: بقاء الأقوى]. أكمل الخطوات المستهدفة لتجنب منطقة العقاب.</string>
+    <string name="system_gate_breached_title">تم اختراق البوابة البعدية!</string>
+    <string name="system_gate_breached_body">تم تحييد بوابة السايبر! سقط مخبأ غنائم الفئة S في حقيبتك.</string>
+    <string name="system_confirm_button">قبول [دخول]</string>
+
+    <!-- Homepage UI/UX Fluid Remediation & HUD Parity -->
+    <string name="home_initiate_stride_raid">⚡ بدء غارة الخطوات</string>
+    <string name="home_hunter_dossier">// ملف الصياد</string>
+    <string name="home_open_gear_vault">فتح خزنة العتاد ←</string>
+    <string name="home_active_contracts">// العقود النشطة</string>
+    <string name="home_loot_vault">خزنة الغنائم ←</string>
+    <string name="home_mana_overdrive_engaged">⚡ تفعيل تعزيز المانا</string>
+    <string name="telemetry_standby">// وضع الاستعداد</string>
+    <string name="telemetry_arc_reactor">// مفاعل الطاقة</string>
+    <string name="telemetry_hardware">// القياس عن بعد للأجهزة</string>
+    <string name="telemetry_stale">// بيانات قديمة</string>
+    <string name="overdrive_charge_badge">⚡ 100% تعزيز أقصى</string>
+    <string name="charge_badge_format">[ شحن %1$d%% ]</string>
+    <string name="boost_badge_format">تعزيز %1$sx</string>
+    <string name="exp_gauge_format">[ %1$d%% إلى مستوى %2$d ]</string>
+    <string name="home_urgent_quest_beacon">⚡ [إشعار النظام: توجيه نشط] • انقر لفتح النافذة</string>
+    <string name="home_summon_quest_hud">شاشة منبثقة ⚡</string>
+    <string name="quest_summon_popup_title">استدعاء شاشة مهام النظام</string>
+    <string name="quest_penalty_warning_short">⚠ عدم الإنجاز قبل منتصف الليل يعرضك لمنطقة العقاب.</string>
+    <string name="quest_objective_label">الهدف:</string>
+    <string name="quest_rewards_label">مكافآت الإنجاز:</string>
+    <string name="quest_accept_sync_btn">مزامنة البروتوكول [تم]</string>
+    <string name="quest_rank_e_bounty">الرتبة E • توجيه النظام</string>
+    <string name="quest_tap_to_inspect">انقر لنافذة النظام ↗</string>
+    <string name="history_mission_archives_title">سجلات المهام الزمنية</string>
+    <string name="history_mission_archives_subtitle">سجلات الحركة التكتيكية ومذكرات المهام</string>
+    <string name="history_lifetime_dossier">الملف التكتيكي الشامل</string>
+    <string name="history_rank_s_badge">الفئة S [مكتمل]</string>
+    <string name="history_rank_a_badge">الفئة A</string>
+    <string name="history_rank_b_badge">الفئة B</string>
+    <string name="history_rank_c_badge">الفئة C</string>
+    <string name="streak_cryo_stasis_title">نواة التجميد لحماية السلسلة</string>
+    <string name="streak_cryo_stasis_ready">خلية التجميد مشحونة</string>
+    <string name="streak_deploy_cryo_btn">تفعيل درع التجميد</string>
+    <string name="trophies_hall_of_honors">قاعة شرف الصيادين والآثار</string>
+    <string name="trophy_encrypted_status">أرشيف مشفر</string>
+    <string name="trust_neural_matrix_title">مصفوفة الأمان العصبي</string>
+    <string name="trust_neural_matrix_subtitle">درع قياسات محلي عالي الحماية</string>
+    <string name="goals_power_matrix_title">توجيهات النظام وعتبات القوة</string>
+    <string name="goals_power_matrix_subtitle">معايرة عتبات الحركة وأهداف الشحن الفائق</string>
+</resources>

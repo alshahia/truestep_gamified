@@ -1,0 +1,782 @@
+<resources>
+    <string name="app_name">TrueStep</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Today</string>
+    <string name="nav_history">History</string>
+    <string name="nav_goals">Goals</string>
+    <string name="nav_trust">Trust Center</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_achievements">Awards</string>
+    <string name="nav_analytics">Analysis</string>
+    <string name="nav_walk_session">Walking Session</string>
+
+    <!-- Home Dashboard (P11 Prototype) -->
+    <string name="today_title">Today\'s Activity</string>
+    <string name="steps_unit">steps</string>
+    <string name="of_goal">of goal</string>
+    <string name="tap_to_pause">Tap to pause</string>
+    <string name="tap_to_resume">Tap to resume</string>
+    <string name="paused_body">Steps are not being added while counting is paused.</string>
+    <string name="day_shape">Today, hour by hour</string>
+    <string name="now_tag">now</string>
+    <string name="elapsed_so_far">so far</string>
+    <string name="history_chart">Step history</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="last_14_days">Last 14 days</string>
+    <string name="last_12_weeks">Last 12 weeks</string>
+    <string name="last_12_months">Last 12 months</string>
+    <string name="this_hour">This hour</string>
+    <string name="selected_hour">Selected hour</string>
+    <string name="full_day">Full Day</string>
+    <string name="today_steps">Today\'s Steps</string>
+    <string name="start_of_day">Start of day</string>
+    <string name="end_of_day">End of day</string>
+    <string name="in_this_hour">in this hour</string>
+    <string name="goal_progress">Goal Progress</string>
+    <string name="share_of_day">Share of day</string>
+    <string name="to_target">%1$d steps to your target</string>
+    <string name="goal_reached">Target goal achieved! 🎉</string>
+    <string name="stretch_reached">Stretch goal unlocked! 🚀</string>
+    <string name="minimum_reached">Minimum daily goal reached</string>
+    <string name="edit_goal">Edit Goal</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="tracking_paused">Step tracking is paused</string>
+    <string name="tracking_active">Step tracking active</string>
+    <string name="distance_label">Distance</string>
+    <string name="km_unit">km</string>
+    <string name="miles_unit">mi</string>
+    <string name="active_time_label">Active Time</string>
+    <string name="calories_burned">Calories</string>
+    <string name="kcal_unit">kcal</string>
+    <string name="streak_label">Goal Streak</string>
+    <string name="days_unit">days</string>
+    <string name="min_goal_label">Min Goal</string>
+    <string name="target_goal_label">Target</string>
+    <string name="stretch_goal_label">Stretch</string>
+    <string name="confidence_high">High Confidence (Direct sensor/Health Connect)</string>
+    <string name="confidence_medium">Reconciled Sources</string>
+    <string name="confidence_low">Stale or partial data</string>
+    <string name="source_status_format">Source: %1$s • %2$s</string>
+    <string name="data_current">Current to %1$s</string>
+    <string name="data_stale">Data not updated recently. Pull to refresh.</string>
+    <string name="supportive_habit">Every single step supports your vitality.</string>
+    <string name="supportive_rest">Rest and recovery replenish your stamina.</string>
+    <string name="sync_now">Sync Now</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Step History</string>
+    <string name="daily_records_title">Daily Records &amp; Journal</string>
+    <string name="toggle_7_days">7 Days</string>
+    <string name="toggle_30_days">30 Days</string>
+    <string name="weekly_average">7-Day Average</string>
+    <string name="monthly_average">30-Day Average</string>
+    <string name="best_day">Best Day</string>
+    <string name="summary_accessibility">%1$s: %2$d steps on %3$s</string>
+    <string name="chart_accessibility_summary">Step history chart showing average of %1$d steps per day over selected period.</string>
+    <string name="day_detail_title">Day Details</string>
+    <string name="notes_placeholder">Add a personal note for this day…</string>
+    <string name="goal_status_label">Goal Status</string>
+    <string name="rest_day_indicator">Designated Rest Day</string>
+    <string name="recovery_day_indicator">Recovery Mode Active</string>
+    <string name="no_history_yet">No steps recorded yet. Start walking with your phone!</string>
+
+    <!-- Goals & Adaptive -->
+    <string name="goals_title">Activity Goals</string>
+    <string name="adaptive_goals">Adaptive Smart Goals</string>
+    <string name="adaptive_goals_desc">Gradually adjusts your goals based on your actual 7-day median baseline (max 5–10% weekly adjustment).</string>
+    <string name="lock_goals">Lock Goals</string>
+    <string name="lock_goals_desc">Prevent automatic goal updates and keep manual targets.</string>
+    <string name="rest_days_title">Rest Days</string>
+    <string name="rest_days_desc">Protect your streak without guilt on chosen recovery days.</string>
+    <string name="recovery_mode">Recovery Mode</string>
+    <string name="recovery_mode_desc">Temporarily relaxes step goals during illness, injury, or fatigue.</string>
+    <string name="recovery_days_count">%1$d days remaining in recovery</string>
+    <string name="restore_default_goals">Reset Recommended Goals</string>
+    <string name="goal_profile_beginner">Gentle Start (4,000 steps)</string>
+    <string name="goal_profile_active">Active Walker (7,500 steps)</string>
+    <string name="goal_profile_stretch">Dedicated (10,000 steps)</string>
+
+    <!-- Trust Center & Device Health -->
+    <string name="trust_sensor_center">Battery &amp; Sensor Health (Trust Center)</string>
+    <string name="trust_sensor_subtitle">Transparency on sensors, background counting, and battery exemptions</string>
+    <string name="trust_center_title">Trust &amp; Transparency</string>
+    <string name="trust_center_subtitle">Complete visibility into where your step data comes from and how it is processed.</string>
+    <string name="health_connect_status">Health Connect</string>
+    <string name="health_connect_connected">Connected &amp; Active</string>
+    <string name="health_connect_disconnected">Not Connected / Permission Needed</string>
+    <string name="phone_sensor_status">Hardware Step Sensor</string>
+    <string name="sensor_available">Hardware TYPE_STEP_COUNTER Available</string>
+    <string name="sensor_unavailable">Hardware sensor not detected (fallback mode)</string>
+    <string name="last_sync_label">Last Synchronized</string>
+    <string name="duplicate_detection_title">Deduplication &amp; Overlap Handling</string>
+    <string name="duplicates_excluded_count">%1$d overlapping record intervals reconciled</string>
+    <string name="battery_opt_title">Battery Optimization Notice</string>
+    <string name="battery_opt_desc">Some device manufacturers restrict background services. If steps pause when the screen is off, allow background activity.</string>
+    <string name="open_battery_settings">Check Battery Settings</string>
+    <string name="open_health_connect">Manage Health Connect</string>
+    <string name="request_sensor_perm">Enable Activity Recognition</string>
+
+    <!-- Achievements & Milestones -->
+    <string name="achievements_title">Milestones &amp; Records</string>
+    <string name="tab_daily_goals">Daily Goals</string>
+    <string name="tab_streaks">Streaks</string>
+    <string name="tab_days">Active Days</string>
+    <string name="tab_destinations">Virtual Walks</string>
+    <string name="unlocked_badge">Unlocked</string>
+    <string name="locked_badge">In Progress</string>
+    <string name="distance_to_dest">%1$.1f km to %2$s</string>
+    <string name="next_destination">Next Destination Landmark</string>
+
+    <!-- Analytics / Analysis -->
+    <string name="analytics_title">Analysis &amp; Milestones</string>
+    <string name="trend_chart_title">Consistency &amp; Long-term Progress</string>
+    <string name="consistency_score">Walking Consistency</string>
+    <string name="hourly_distribution">Time of Day Rhythm</string>
+    <string name="personal_records_title">Personal Records &amp; Milestones</string>
+    <string name="all_time_best_day">All-Time Best Single Day</string>
+    <string name="best_week_record">Best Consecutive Week</string>
+    <string name="longest_streak_record">Longest Daily Streak</string>
+    <string name="total_lifetime_steps">Total Lifetime Steps</string>
+    <string name="total_lifetime_km">Total Distance Covered</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="section_appearance">Appearance &amp; Themes</string>
+    <string name="theme_selection">Select Theme</string>
+    <string name="dark_mode_option">Theme Mode</string>
+    <string name="dark_mode_desc">Switch between Light, Dark, or System theme</string>
+    <string name="dark_mode_system">System</string>
+    <string name="dark_mode_on">Dark</string>
+    <string name="dark_mode_off">Light</string>
+    <string name="language_section">Language / اللغة</string>
+    <string name="language_label">App Language</string>
+    <string name="language_desc">Choose your preferred display language</string>
+    <string name="language_system">System</string>
+    <string name="language_english">English</string>
+    <string name="language_arabic">العربية (Arabic)</string>
+    <string name="section_general">Device &amp; Carrying Mode</string>
+    <string name="carrying_mode_label">Where do you carry your phone?</string>
+    <string name="mode_pocket">Trouser / Coat Pocket</string>
+    <string name="mode_hand">Held in Hand</string>
+    <string name="mode_bag">Handbag / Shoulder Bag</string>
+    <string name="mode_backpack">Backpack</string>
+    <string name="mode_wearable">Smartwatch / Wearable</string>
+    <string name="mode_treadmill">Treadmill / Indoor Gym</string>
+    <string name="section_privacy">Privacy &amp; Data Control</string>
+    <string name="export_data">Export Step History (CSV / JSON)</string>
+    <string name="export_success">Data exported successfully to downloads</string>
+    <string name="delete_data">Delete All Local Data</string>
+    <string name="delete_data_confirm_title">Delete Local History?</string>
+    <string name="delete_data_confirm_desc">This permanently removes all locally stored step records, daily summaries, and streaks. Health Connect records on your device are not altered.</string>
+    <string name="confirm_delete">Delete Permanently</string>
+    <string name="section_about">About TrueStep</string>
+    <string name="app_version_label">Version 1.0.0 • Offline &amp; Privacy-First</string>
+    <string name="privacy_guarantee">No internet connection required. No ads, no cloud accounts, and no personal data telemetry.</string>
+    <string name="accessibility_options">High Contrast &amp; Font Sizing</string>
+    <string name="high_contrast_toggle">High Contrast Mode</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Track your movement with clarity</string>
+    <string name="onboarding_welcome_desc">TrueStep counts steps honestly, explains where every number comes from, and adapts to your daily routine.</string>
+    <string name="onboarding_privacy_title">100% Offline &amp; Private</string>
+    <string name="onboarding_privacy_desc">Normal step tracking runs completely on your device. We do not require your GPS location, an email account, or a cloud server.</string>
+    <string name="onboarding_sensor_title">Accurate Hardware Counting</string>
+    <string name="onboarding_sensor_desc">We use Android\'s battery-efficient hardware step counter sensor with batched updates to save power.</string>
+    <string name="onboarding_goal_title">Choose your starting daily goal</string>
+    <string name="onboarding_start_button">Get Started</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_trust_badge">✨ Built on Trust</string>
+    <string name="onboarding_trust_bullet_1">• See exactly where every step number came from.</string>
+    <string name="onboarding_trust_bullet_2">• Explains missing or duplicate overlapping sensor data.</string>
+    <string name="onboarding_trust_bullet_3">• Adaptive baseline goals prevent burnout and guilt.</string>
+    <string name="onboarding_hc_title">Health Connect (Optional)</string>
+    <string name="onboarding_hc_desc">Read step records from smartwatches</string>
+    <string name="onboarding_hc_btn">Connect</string>
+    <string name="onboarding_notif_title">Live Counting Notification</string>
+    <string name="onboarding_notif_desc">Keeps counting accurate in background</string>
+    <string name="onboarding_notif_btn">Allow</string>
+    <string name="onboarding_custom_goal">Custom Goal</string>
+    <string name="onboarding_custom_goal_label">Daily target steps</string>
+    <string name="onboarding_carrying_title">Where do you carry your phone?</string>
+    <string name="onboarding_carrying_desc">TrueStep calibrates sensor sensitivity to your preferred carrying style.</string>
+
+    <!-- Days of the week -->
+    <string name="day_monday">Monday</string>
+    <string name="day_tuesday">Tuesday</string>
+    <string name="day_wednesday">Wednesday</string>
+    <string name="day_thursday">Thursday</string>
+    <string name="day_friday">Friday</string>
+    <string name="day_saturday">Saturday</string>
+    <string name="day_sunday">Sunday</string>
+    <string name="active_data_feeds">Active Data Feeds</string>
+    <string name="confidence_badge_high">High Confidence</string>
+    <string name="confidence_badge_reconciled">Reconciled</string>
+    <string name="min_goal_completed_inline">Minimum goal completed! %1$d steps to target.</string>
+    <string name="steps_to_target_inline">%1$d steps to your target goal</string>
+
+    <!-- Notification Service -->
+    <string name="notification_channel_name">TrueStep Counter</string>
+    <string name="notification_channel_desc">Shows ongoing step count in background</string>
+    <string name="notification_title">TrueStep is active</string>
+    <string name="notification_text_format">%1$d steps today • %2$s</string>
+
+    <!-- Additional UI & Localization -->
+    <string name="quick_presets">Quick Presets</string>
+    <string name="goals_met_filter">Goals Met</string>
+    <string name="with_notes_filter">With Notes</string>
+    <string name="all_filter">All (%1$d)</string>
+    <string name="rest_badge">Rest</string>
+    <string name="consecutive_days">consecutive days</string>
+    <string name="all_time_total">all-time total</string>
+    <string name="distance_traveled">distance traveled</string>
+    <string name="km_left_format">%1$.1f km left</string>
+    <string name="consistency_desc">%1$d of %2$d days reached minimum or target goal.</string>
+    <string name="time_of_day_rhythm_desc">Rhythm distribution across morning commutes, midday walks, and evening active sessions.</string>
+    <string name="recalculate_adaptive_goal_btn">Recalculate Adaptive Goal from 7-Day Median</string>
+    <string name="status_active">Active</string>
+    <string name="status_syncing">Syncing…</string>
+    <string name="export_csv_btn">Export Step History as CSV</string>
+    <string name="export_json_btn">Export Step History as JSON</string>
+    <string name="load_demo_data_btn">Load Sample Data (Preview Only)</string>
+    <string name="sync_health_connect_btn">Synchronize Health Connect Steps</string>
+    <string name="theme_card_desc">Select from handcrafted themes with custom palettes and typography.</string>
+    <string name="milestones_title">Milestones &amp; Achievements</string>
+    <string name="no_milestones_unlocked">Walk and achieve daily goals to unlock milestones!</string>
+
+    <!-- Settings Refactoring Strings -->
+    <string name="section_notifications">Notifications &amp; Live Tracking</string>
+    <string name="notifications_desc">Configure ongoing status notification and background counting behavior.</string>
+    <string name="live_notification_mode">Live Step Counter Notification</string>
+    <string name="live_notification_mode_desc">Show real-time step count and progress percentage in the notification bar. When disabled, shows a minimal silent status.</string>
+    <string name="live_notification_active_status">Live counter active</string>
+    <string name="live_notification_silent_status">Minimal silent status</string>
+    <string name="high_contrast_desc">Enhance visual contrast, card outlines, and typography readability across the app.</string>
+    <string name="choose_theme_button">Choose Theme</string>
+    <string name="active_theme_label">Active Theme</string>
+    <string name="theme_sheet_title">Select Application Theme</string>
+    <string name="theme_sheet_subtitle">Choose from 16 handcrafted Material 3 color palettes and typography.</string>
+    <string name="section_troubleshooting">Device Health &amp; Diagnostics</string>
+    <string name="sensor_diagnostics">Sensor Diagnostics</string>
+    <string name="battery_exemption_status">Background Activity Exemption</string>
+    <string name="view_theme_palette">View Palette</string>
+    <string name="trust_center_action_title">Trust Center &amp; Diagnostics</string>
+    <string name="trust_center_action_desc">Audit hardware sensor feeds, de-duplication rules, and privacy guarantees.</string>
+    <string name="location_disclosure_title">Location Usage Disclosure</string>
+    <string name="location_disclosure_desc">TrueStep uses location data exclusively during active Outdoor Walking Sessions to measure distance, pace, and route. Location data remains entirely on your device and is never uploaded or shared. Standard daily step counting does not require or use GPS.</string>
+    <string name="allow_location">Continue</string>
+    <string name="close">Close</string>
+
+    <!-- Achievements / Milestones (16 items) -->
+    <string name="achievement_goal_4k_title">Gentle Stride</string>
+    <string name="achievement_goal_4k_desc">Reach 4,000 steps in a day</string>
+    <string name="achievement_goal_6k_title">Active Flow</string>
+    <string name="achievement_goal_6k_desc">Reach 6,000 steps in a day</string>
+    <string name="achievement_goal_8k_title">Health Pioneer</string>
+    <string name="achievement_goal_8k_desc">Reach 8,000 steps in a day</string>
+    <string name="achievement_goal_10k_title">Classic Ten</string>
+    <string name="achievement_goal_10k_desc">Reach 10,000 steps in a day</string>
+    <string name="achievement_goal_12k_title">Stretch Reached</string>
+    <string name="achievement_goal_12k_desc">Reach 12,000 steps in a day</string>
+    <string name="achievement_goal_15k_title">Peak Walker</string>
+    <string name="achievement_goal_15k_desc">Reach 15,000 steps in a day</string>
+    <string name="achievement_goal_20k_title">Ultra Stride</string>
+    <string name="achievement_goal_20k_desc">Reach 20,000 steps in a day</string>
+    <string name="achievement_goal_25k_title">Marathon Legend</string>
+    <string name="achievement_goal_25k_desc">Reach 25,000 steps in a day</string>
+
+    <string name="achievement_days_1_title">Journey Begins</string>
+    <string name="achievement_days_1_desc">Complete your first day</string>
+    <string name="achievement_days_3_title">Building Rhythm</string>
+    <string name="achievement_days_3_desc">Record activity for 3 days</string>
+    <string name="achievement_days_7_title">Full Week</string>
+    <string name="achievement_days_7_desc">Record activity for 7 days</string>
+    <string name="achievement_days_14_title">Fortnight Focus</string>
+    <string name="achievement_days_14_desc">Record activity for 14 days</string>
+    <string name="achievement_days_30_title">Month of Movement</string>
+    <string name="achievement_days_30_desc">Record activity for 30 days</string>
+    <string name="achievement_days_60_title">Two-Month Dedication</string>
+    <string name="achievement_days_60_desc">Record activity for 60 days</string>
+    <string name="achievement_days_90_title">Quarter Year Pioneer</string>
+    <string name="achievement_days_90_desc">Record activity for 90 days</string>
+    <string name="achievement_days_180_title">Half Year Hero</string>
+    <string name="achievement_days_180_desc">Record activity for 180 days</string>
+
+    <!-- Streaks / Multiplier Tiers (12 items) -->
+    <string name="streak_tier_1_title">First Spark</string>
+    <string name="streak_tier_3_title">Three-Day Momentum</string>
+    <string name="streak_tier_7_title">Weekly Habit</string>
+    <string name="streak_tier_13_title">Unstoppable</string>
+    <string name="streak_tier_21_title">Habit Mastered</string>
+    <string name="streak_tier_25_title">Quarter Century</string>
+    <string name="streak_tier_36_title">Dedicated Pacer</string>
+    <string name="streak_tier_50_title">Gold Standard</string>
+    <string name="streak_tier_60_title">Two-Month Dynamo</string>
+    <string name="streak_tier_80_title">Iron Stride</string>
+    <string name="streak_tier_100_title">Centurion Century</string>
+    <string name="streak_tier_120_title">Living Legend</string>
+    <string name="streak_days_consecutive_format">%1$d days consecutive goal</string>
+
+    <!-- Virtual Walk Destinations (12 items) -->
+    <string name="dest_park_name">City Central Park</string>
+    <string name="dest_park_desc">A refreshing stroll across the heart of the city</string>
+    <string name="dest_bridge_name">Golden Suspension Bridge</string>
+    <string name="dest_bridge_desc">Crossing the grand scenic strait</string>
+    <string name="dest_lake_name">Alpine Mountain Lake</string>
+    <string name="dest_lake_desc">Crisp alpine air and mirrored waters</string>
+    <string name="dest_marathon_name">Marathon Legend</string>
+    <string name="dest_marathon_desc">The ancient standard of endurance</string>
+    <string name="dest_canyon_name">Red Rock Grand Canyon</string>
+    <string name="dest_canyon_desc">Vast carved stone horizons</string>
+    <string name="dest_fuji_name">Mount Fuji Circuit</string>
+    <string name="dest_fuji_desc">Encircling the sacred volcanic peak</string>
+    <string name="dest_pyramids_name">Giza Plateau &amp; Nile</string>
+    <string name="dest_pyramids_desc">Traversing historical desert wonderlands</string>
+    <string name="dest_camino_name">Camino Pilgrimage</string>
+    <string name="dest_camino_desc">Historic pilgrim path of contemplation</string>
+    <string name="dest_iceland_name">Icelandic Ring Trail</string>
+    <string name="dest_iceland_desc">Waterfalls, black sand, and glaciers</string>
+    <string name="dest_wall_name">Great Ancient Wall</string>
+    <string name="dest_wall_desc">Ancient stone spine across the mountain ridges</string>
+    <string name="dest_sahara_name">Sahara Oasis Crossing</string>
+    <string name="dest_sahara_desc">Golden sand dunes beneath vast night stars</string>
+    <string name="dest_everest_name">Himalayan Base Passage</string>
+    <string name="dest_everest_desc">Walking toward the roof of the earth</string>
+    <string name="dest_total_km_format">%1$.1f km total</string>
+
+    <!-- Theme Names & Descriptions (16 items) -->
+    <string name="theme_classic_teal_title">Classic Teal</string>
+    <string name="theme_classic_teal_desc">Calm and balanced oceanic tones</string>
+    <string name="theme_apple_health_title">Apple Health</string>
+    <string name="theme_apple_health_desc">Clean minimalist white and vivid accent</string>
+    <string name="theme_bold_vibrant_title">Bold Vibrant</string>
+    <string name="theme_bold_vibrant_desc">High energy cobalt and radiant coral</string>
+    <string name="theme_data_dashboard_title">Data Dashboard</string>
+    <string name="theme_data_dashboard_desc">Precision slate with crisp technical accents</string>
+    <string name="theme_neon_futuristic_title">Neon Futuristic</string>
+    <string name="theme_neon_futuristic_desc">Cyberpunk midnight with neon violet glow</string>
+    <string name="theme_glassmorphism_title">Glassmorphism</string>
+    <string name="theme_glassmorphism_desc">Soft frosted layers with deep translucent sheen</string>
+    <string name="theme_frosted_glass_title">Frosted Glass</string>
+    <string name="theme_frosted_glass_desc">Cool crystalline ice and arctic blue</string>
+    <string name="theme_soft_pastel_title">Soft Pastel</string>
+    <string name="theme_soft_pastel_desc">Gentle lavender and warm blush tones</string>
+    <string name="theme_bold_gradient_title">Bold Gradient</string>
+    <string name="theme_bold_gradient_desc">Sunset radiance and deep twilight</string>
+    <string name="theme_gamified_gold_title">Gamified Gold</string>
+    <string name="theme_gamified_gold_desc">Championship amber, trophy gold, and obsidian</string>
+    <string name="theme_nature_organic_title">Nature Organic</string>
+    <string name="theme_nature_organic_desc">Earthy terracotta, warm sand, and sage</string>
+    <string name="theme_playful_gamified_title">Playful Gamified</string>
+    <string name="theme_playful_gamified_desc">Lively arcade vibes with joyful highlights</string>
+    <string name="theme_gradient_mesh_title">Gradient Mesh</string>
+    <string name="theme_gradient_mesh_desc">Fluid modern color blends and smooth curves</string>
+    <string name="theme_dual_tone_title">Dual Tone</string>
+    <string name="theme_dual_tone_desc">Striking contrast of navy blue and warm apricot</string>
+    <string name="theme_card_dashboard_title">Card Dashboard</string>
+    <string name="theme_card_dashboard_desc">Structured modular cards with crisp borders</string>
+    <string name="theme_m3_dark_title">Material 3 Dark</string>
+    <string name="theme_m3_dark_desc">Pure deep dark theme with expressive tonal surfaces</string>
+
+    <!-- Sensors & Telemetry -->
+    <string name="sensor_hw_step_counter">Hardware Step Counter (TYPE_STEP_COUNTER)</string>
+    <string name="sensor_hw_step_detector">Hardware Step Detector (TYPE_STEP_DETECTOR)</string>
+    <string name="sensor_accelerometer_fallback">Accelerometer Digital Fallback (TYPE_ACCELEROMETER)</string>
+    <string name="sensor_none_available">No Sensor Available</string>
+    <string name="sensor_status_title">Hardware Sensor Status</string>
+    <string name="sensor_unavailable_desc">Sensor unavailable (emulation/fallback mode)</string>
+    <string name="status_offline">Offline</string>
+    <string name="accelerometer_fallback_notice">ℹ️ Accelerometer Fallback Active: Your phone lacks a dedicated hardware step counter coprocessor. StepTrack is actively counting your steps using the 3-axis accelerometer with digital signal filtering.</string>
+    <string name="deduplication_notice">If your phone and watch both record activity during the same time interval, StepTrack merges overlapping windows into a single reconciled count to prevent double counting.</string>
+    <string name="confidence_status_format">Confidence Level: %1$s • Primary: %2$s</string>
+    <string name="confidence_badge_uncertain">Uncertain / Stale</string>
+    <string name="carrying_mode_subtitle">Calibrates sensor step thresholds to reduce false steps</string>
+
+    <!-- Walking Sessions Sheet -->
+    <string name="walk_session_title">Walking Activity Session</string>
+    <string name="walk_session_desc">Track duration, cadence, and steps for dedicated walks.</string>
+    <string name="choose_session_type">Choose Session Type</string>
+    <string name="walk_mode_indoor">Indoor Walk</string>
+    <string name="walk_mode_outdoor">Outdoor Walk</string>
+    <string name="walk_mode_treadmill">Treadmill</string>
+    <string name="optional_gps_route">Optional GPS Route</string>
+    <string name="optional_gps_route_desc">Only active during this session. Normal tracking never uses GPS.</string>
+    <string name="start_session_format">Start %1$s</string>
+    <string name="past_walking_sessions">Past Walking Sessions</string>
+    <string name="delete_session">Delete session</string>
+    <string name="session_steps_label">Session Steps</string>
+    <string name="finish_walk_button">Finish Walk</string>
+    <string name="walk_completed_title">Walk Completed! 🎉</string>
+    <string name="walk_completed_summary">You completed %1$d steps (%2$.2f km) over %3$d minutes.</string>
+    <string name="session_notes_label">Session Notes (optional)</string>
+    <string name="session_notes_placeholder">e.g. Park walk with sunny weather</string>
+    <string name="save_walk_to_history">Save Walk to History</string>
+
+    <!-- Goals Screen Tiers & Presets -->
+    <string name="goals_subtitle">Adaptive, guilt-free goals tailored to your real movement baseline.</string>
+    <string name="three_daily_tiers_title">Your Three Daily Tiers</string>
+    <string name="tier_minimum_title">Minimum (60%)</string>
+    <string name="tier_minimum_sub">Streak Base</string>
+    <string name="tier_target_title">Target (100%)</string>
+    <string name="tier_target_sub">Daily Goal</string>
+    <string name="tier_stretch_title">Stretch (120%)</string>
+    <string name="tier_stretch_sub">Bonus Reach</string>
+    <string name="three_tiers_explanation">Completing your Minimum Goal counts as a successful active day and sustains your habit streak.</string>
+    <string name="daily_target_goal_title">Daily Target Goal</string>
+    <string name="preset_4k">4k Gentle</string>
+    <string name="preset_7_5k">7.5k Active</string>
+    <string name="preset_10k">10k Standard</string>
+    <string name="preset_12_5k">12.5k Peak</string>
+    <string name="adaptive_goals_adjust_sub">Adjusts to your 7-day median baseline</string>
+    <string name="recalculate_from_baseline_btn">Recalculate from 7-Day Baseline</string>
+    <string name="weekend_target_title">Weekend Adjusted Target</string>
+    <string name="weekend_target_desc">Set separate target for Saturday &amp; Sunday</string>
+    <string name="weekend_target_label">Weekend Target:</string>
+    <string name="recovery_mode_lower_sub">Lower targets during fatigue, illness, or travel</string>
+    <string name="days_count_format">%1$d Days</string>
+    <string name="recalculate_adaptive_sub">Updates target baseline using your past 7 days of verified walking</string>
+
+    <!-- Settings Subtitles & Diagnostics -->
+    <string name="battery_optimization_title">Battery Optimization Exemption</string>
+    <string name="battery_optimization_sub">Prevent Android OEM killers from stopping step counting in deep sleep</string>
+    <string name="oem_battery_guide_title">Background Protection &amp; Autostart</string>
+    <string name="oem_battery_guide_sub">Configure %1$s settings to prevent background killing</string>
+    <string name="oem_detected_prefix">Detected device: %1$s</string>
+    <string name="oem_explanation">Standard Android battery optimization exemption only protects against AOSP Doze mode. Major phone manufacturers (%1$s) have proprietary background killers that freeze or kill the step counter process unless Autostart or Background Activity is allowed.</string>
+    <string name="open_device_settings_btn">Open Device Settings</string>
+    <string name="offline_pledge_sub">Zero cloud accounts • Zero ads • Zero telemetry</string>
+    <string name="play_store_title">TrueStep: Pedometer &amp; Steps</string>
+    <string name="play_store_short_desc">Accurate offline step counter &amp; pedometer with adaptive goals and zero ads.</string>
+    <string name="rate_app_title">Rate TrueStep on Google Play</string>
+    <string name="rate_app_sub">Support private &amp; offline pedometer development</string>
+    <string name="sync_health_connect_sub">Reconcile smart watch records with hardware sensor</string>
+    <string name="export_csv_sub">Download your daily steps and distances as spreadsheet rows</string>
+    <string name="export_json_sub">Download full raw database schema in structured JSON format</string>
+    <string name="load_demo_sub">Generates 14 days of realistic walking history for visual inspection</string>
+    <string name="accessibility_high_contrast_sub">Enhances font contrast and thickens outlines for improved outdoor visibility</string>
+    <string name="accessibility_scaling_title">Dynamic Scaling &amp; Touch Targets</string>
+    <string name="accessibility_scaling_sub">All buttons meet Android\'s 48dp touch target standard and scale with system font sizes</string>
+    <string name="privacy_guarantees_title">Privacy Guarantees</string>
+    <string name="privacy_bullet_1">• 100% Offline-First: All calculations run on your device CPU.</string>
+    <string name="privacy_bullet_2">• Zero Ads &amp; Telemetry: No third-party ad networks or tracking trackers.</string>
+    <string name="privacy_bullet_3">• No GPS Requirement: Step counting relies on the hardware pedometer.</string>
+    <string name="privacy_bullet_4">• Non-judgmental Philosophy: Sustainable habits without guilt.</string>
+    <string name="live_notification_sub_active">Ongoing notification displays live step counts and daily goal progress</string>
+    <string name="live_notification_sub_minimal">Minimal silent badge: Keeps tracking service active with reduced visual clutter</string>
+
+    <!-- Inline Formats & Miscellaneous -->
+    <string name="goal_min_inline_format">Min: %,d</string>
+    <string name="goal_target_inline_format">Target: %,d</string>
+    <string name="goal_stretch_inline_format">Stretch: %,d</string>
+    <string name="time_no_data">—</string>
+    <string name="decrease_goal">Decrease target goal</string>
+    <string name="increase_goal">Increase target goal</string>
+    <string name="has_note">Has note</string>
+    <string name="steps_count_format">%,d steps</string>
+    <string name="percent_of_goal_format">%1$d%% of goal</string>
+    <string name="session_summary_item_format">%1$s • %2$d mins</string>
+    <string name="session_steps_km_format">%1$d steps (%2$.2f km)</string>
+    <string name="status_granted">Granted</string>
+
+    <!-- Splash Screen & Motivational Quotes -->
+    <string name="splash_app_title">TrueStep</string>
+    <string name="splash_tagline">Every step matters for your health</string>
+    <string name="splash_quote_label">Daily Walking Tip</string>
+    <string name="splash_loading_status">Preparing your stride stats…</string>
+    <string name="splash_quote_1">A journey of a thousand miles begins with a single step.</string>
+    <string name="splash_quote_2">Walking just 30 minutes a day dramatically boosts mood and heart health.</string>
+    <string name="splash_quote_3">Small daily steps accumulate into life-changing fitness.</string>
+    <string name="splash_quote_4">Movement is medicine. Walk today for a stronger tomorrow.</string>
+    <string name="splash_quote_5">Consistency beats intensity. Keep your streak alive step by step.</string>
+    <string name="splash_quote_6">Walking outdoors clears the mind and sparks fresh ideas.</string>
+    <string name="splash_logo_content_desc">TrueStep App Emblem</string>
+
+    <!-- Settings Replay Onboarding -->
+    <string name="settings_replay_onboarding_title">Replay Setup Guide</string>
+    <string name="settings_replay_onboarding_sub">Revisit initial goal profiles and carrying mode guides</string>
+
+    <!-- Journey, Quests, Streak Freezes & Retention -->
+    <string name="nav_journey">Journey</string>
+    <string name="nav_quests">Quests</string>
+    <string name="nav_trophies">Trophies</string>
+    <string name="nav_expeditions">Expeditions</string>
+    <string name="journey_title">Journey &amp; Quests</string>
+    <string name="journey_subtitle">Conquer trails, complete daily quests, and protect your streak</string>
+    <string name="tab_quests">Quests</string>
+    <string name="tab_expeditions">Expeditions</string>
+    <string name="tab_streak_vault">Streak Vault</string>
+    <string name="tab_trophies">Trophies</string>
+
+    <!-- Streak Freezes & Vault -->
+    <string name="streak_vault_title">Streak Protection Vault</string>
+    <string name="streak_vault_desc">Earn 1 Streak Freeze every 7 consecutive goal days. Stored freezes automatically protect your streak if you miss a day.</string>
+    <string name="banked_freezes_label">Banked Freezes</string>
+    <string name="banked_freezes_count">%1$d / 2 Freezes Available</string>
+    <string name="streak_protection_active">Streak Protection Active</string>
+    <string name="streak_protection_protected_today">Streak Protected! A streak freeze was applied to save your habit streak.</string>
+    <string name="earn_next_freeze_hint">%1$d more goal days to earn your next freeze</string>
+    <string name="freeze_max_banked">Maximum freezes banked (2/2). You\'re fully protected!</string>
+    <string name="use_freeze_button">Streak Protected</string>
+
+    <!-- Daily Mini-Quests -->
+    <string name="daily_quests_title">Today\'s Mini-Quests</string>
+    <string name="daily_quests_sub">Bite-sized walking challenges that refresh at midnight</string>
+    <string name="quest_completed_badge">Completed</string>
+    <string name="quest_reward_format">+%1$d XP</string>
+    <string name="quest_all_completed">All daily quests finished! Outstanding dedication.</string>
+    <string name="quest_morning_title">Morning Momentum</string>
+    <string name="quest_morning_desc">Log at least 500 steps before 10:00 AM</string>
+    <string name="quest_brisk_title">Brisk Aerobic Stride</string>
+    <string name="quest_brisk_desc">Walk for 15 active minutes with brisk pace</string>
+    <string name="quest_midday_title">Midday Stride</string>
+    <string name="quest_midday_desc">Reach 50% of your daily target goal</string>
+    <string name="quest_goal_master_title">Daily Target Master</string>
+    <string name="quest_goal_master_desc">Achieve 100% of your daily step goal</string>
+    <string name="quest_twilight_title">Twilight Trek</string>
+    <string name="quest_twilight_desc">Walk 1,000 steps after 6:00 PM</string>
+
+    <!-- World Trail Expeditions -->
+    <string name="expedition_trail_title">World Trail Expeditions</string>
+    <string name="expedition_trail_sub">Convert your lifetime walking into famous trails around the globe</string>
+    <string name="active_expedition_label">Active Expedition</string>
+    <string name="next_landmark_label">Next Landmark</string>
+    <string name="trail_progress_format">%1$.1f / %2$.1f km (%3$d%%)</string>
+    <string name="completed_expeditions_title">Completed Expeditions</string>
+    <string name="no_completed_expeditions">Keep walking to complete your first world expedition!</string>
+
+    <!-- Cadence & Real-Time Walk Session -->
+    <string name="cadence_spm_label">Cadence</string>
+    <string name="cadence_spm_unit">SPM</string>
+    <string name="cadence_spm_format">%1$d SPM</string>
+    <string name="zone_stroll">Stroll</string>
+    <string name="zone_moderate">Moderate</string>
+    <string name="zone_brisk">Brisk Aerobic</string>
+    <string name="zone_power">Power Walk</string>
+    <string name="brisk_active_minutes">Brisk Minutes</string>
+    <string name="average_cadence_label">Avg Cadence</string>
+
+    <!-- Milestone Celebration & Share Card -->
+    <string name="celebration_title">Milestone Achieved! 🎉</string>
+    <string name="celebration_praise">Incredible dedication! You just reached your daily step goal.</string>
+    <string name="celebration_share_btn">Share Progress Card</string>
+    <string name="celebration_dismiss">Keep Walking</string>
+    <string name="share_card_title">My TrueStep Milestone</string>
+    <string name="share_card_text_format">🚶 TrueStep Milestone: %1$s steps (%2$.2f km) today! 🔥 Streak: %3$d days.\nTracked 100%% offline &amp; ad-free with TrueStep: Pedometer &amp; Steps.\nhttps://play.google.com/store/apps/details?id=com.aistudio.steptrack.pgydle</string>
+    <string name="share_sheet_chooser_title">Share your walking achievement</string>
+    <string name="share_card_brand_badge">TrueStep • Verified Offline Pedometer</string>
+
+    <!-- In-App Rating & Review Engine -->
+    <string name="rating_prompt_title">Loving your stride with TrueStep?</string>
+    <string name="rating_prompt_body">You\'ve built impressive walking momentum! TrueStep is 100% offline and free of intrusive ads. A quick 5-star rating on Google Play helps other privacy-conscious walkers find us.</string>
+    <string name="rating_rate_play_store">Rate on Google Play ⭐</string>
+    <string name="rating_feedback_btn">Share Feedback</string>
+    <string name="rating_maybe_later">Maybe Later</string>
+    <string name="rating_never_ask">Don\'t Ask Again</string>
+    <string name="rating_how_do_you_feel">How is your experience so far?</string>
+    <string name="rating_thank_you">Thank you for supporting private, offline health tracking!</string>
+
+    <!-- Home Daily Briefing -->
+    <string name="briefing_morning">Good morning! Set the pace with a brisk morning walk.</string>
+    <string name="briefing_afternoon">Keep the momentum going! Halfway through the day.</string>
+    <string name="briefing_evening">Evening wind-down. Relax and review today\'s stride.</string>
+    <string name="home_quests_glance_format">Today\'s Quests: %1$d / %2$d done</string>
+    <string name="home_view_journey">View Journey</string>
+
+    <!-- In-App Privacy Policy & Compliance -->
+    <string name="privacy_policy_title">Privacy Policy &amp; Data Rights</string>
+    <string name="privacy_policy_sub">Read our complete offline data safety and confidentiality pledge</string>
+    <string name="privacy_policy_body">TrueStep is engineered with a strict privacy-by-design architecture:\n\n1. Zero Data Collection: Your step records, walking routes, and health goals remain strictly on your local device. There are no remote servers, analytics databases, or advertising trackers.\n\n2. Health Connect Access: TrueStep only requests read permission for steps from Health Connect to display combined daily activity. TrueStep never writes or alters your Health Connect records.\n\n3. Hardware Sensor Usage: Daily step counting is processed directly via your phone\'s hardware step counter sensor with zero location tracking.\n\n4. Optional GPS: Location permissions are only used if you explicitly start an outdoor walk session with GPS enabled. Location coordinates are kept solely in memory during the walk and never uploaded.\n\n5. Full Data Ownership: You can export your entire step history at any time as CSV or JSON, or permanently delete all local data with a single tap.</string>
+    <string name="onboarding_sensor_perm_title">Hardware Step Counter</string>
+    <string name="onboarding_sensor_perm_desc">Enables local hardware pedometer for background step counting</string>
+    <string name="onboarding_allow_btn">Allow</string>
+    <string name="read_privacy_policy">Read Privacy Policy</string>
+
+    <!-- Cybernetic Stride Theme -->
+    <string name="theme_cybernetic_stride_title">Cybernetic Stride</string>
+    <string name="theme_cybernetic_stride_desc">High-octane anime cyberpunk athletic HUD with obsidian surfaces and electric glow</string>
+
+    <!-- Hunter RPG & Loadout -->
+    <string name="hero_title">Hunter Profile</string>
+    <string name="hero_subtitle">Cybernetic Stride Loadout &amp; Equipment</string>
+    <string name="hero_default_name">Ren Amamiya</string>
+    <string name="hero_class_title">Wind Courier • Speedster</string>
+    <string name="hero_combat_power">Combat Power</string>
+    <string name="hero_cp_unit">CP</string>
+    <string name="hero_mana_overdrive">Mana Overdrive</string>
+    <string name="hero_mana_charged">Charged</string>
+    <string name="hero_sparks_banked">Sparks Banked</string>
+    <string name="hero_spark_desc">Generates +1 Spark Token / 1,000 steps</string>
+    <string name="currency_sparks">Sparks</string>
+    <string name="currency_cores">Cores</string>
+    <string name="currency_shards">Shards</string>
+    <string name="tab_hero">Hero</string>
+    <string name="active_loadout_title">Active Loadout</string>
+    <string name="active_loadout_slots">Slots Tuned: 4/4</string>
+    <string name="gear_tune_button">Tune</string>
+    <string name="gear_equip_button">Equip</string>
+    <string name="gear_equipped_badge">Equipped</string>
+    <string name="gear_locked_badge">Locked</string>
+    <string name="gear_forge_title">Cybernetic Forge</string>
+    <string name="gear_forge_desc">Fuse gear shards or overclock equipped perks</string>
+    <string name="gear_forge_enhance">Enhance</string>
+    <string name="storage_vault_title">Storage Vault</string>
+    <string name="vault_capacity_format">Capacity: %1$d/%2$d</string>
+    <string name="vault_filter_all">ALL</string>
+    <string name="vault_filter_footwear">FOOTWEAR</string>
+    <string name="vault_filter_cores">CORES</string>
+    <string name="vault_filter_boosts">BOOSTS</string>
+    <string name="vault_filter_materials">MATERIALS</string>
+    <string name="gear_stat_cadence">+%1$d%% Cadence</string>
+    <string name="gear_stat_stamina">+%1$d%% Stamina</string>
+    <string name="gear_stat_exp">+%1$d%% EXP</string>
+    <string name="gear_stat_fortune">+%1$d%% Fortune</string>
+    <string name="gear_perk_label">Perk</string>
+    <string name="tune_stats_title">Tune Stats</string>
+    <string name="confirm_loadout_title">Confirm Loadout</string>
+    <string name="gear_inspect_title">Gear Inspection</string>
+
+    <!-- Specific Gear Names & Descriptions -->
+    <string name="gear_neon_phantom_title">Neon Phantom Stride X-1</string>
+    <string name="gear_neon_phantom_desc">Lv. 8 Epic Kicks • Overdrive Sprint</string>
+    <string name="gear_zephyr_engine_title">Turbulent Zephyr Engine</string>
+    <string name="gear_zephyr_engine_desc">Lv. 5 Rare Core • Aero Defiance</string>
+    <string name="gear_nanoweave_vest_title">Shibuya Nanoweave Vest</string>
+    <string name="gear_nanoweave_vest_desc">Lv. 7 Epic Vest • Kinetic Loop</string>
+    <string name="gear_chrono_watch_title">Cyber Pacer Chrono</string>
+    <string name="gear_chrono_watch_desc">Lv. 6 Rare Chrono • Precision Route</string>
+    <string name="gear_vapor_glide_title">Vapor Glide Trainers</string>
+    <string name="gear_vapor_glide_desc">Lv. 4 Rare Shoes • Smooth Asphalt Bias</string>
+    <string name="gear_apex_pulse_title">Hyper-Pulse Apex</string>
+    <string name="gear_apex_pulse_desc">Lv. 15 Legendary Footwear • Spark Trail</string>
+    <string name="gear_overclock_battery_title">Overclock Battery</string>
+    <string name="gear_overclock_battery_desc">2x Spark Generation for 5,000 steps</string>
+    <string name="gear_sync_elixir_title">Stride Sync Elixir</string>
+    <string name="gear_sync_elixir_desc">Instant +500 Stride EXP</string>
+    <string name="gear_matrix_core_title">Core [Matrix 4]</string>
+    <string name="gear_matrix_core_desc">Synthesis Engine • Shoe stat re-roll mat</string>
+    <string name="gear_apex_shards_title">Apex Shards</string>
+    <string name="gear_apex_shards_desc">Rare sneaker crafting material</string>
+
+    <!-- Live Walking HUD Telemetry -->
+    <string name="hud_cadence_supercharged">SUPERCHARGED</string>
+    <string name="hud_hold_to_complete">Hold to Complete</string>
+    <string name="hud_split_lap">Split Lap</string>
+    <string name="hud_lap_logged_toast">Lap Logged • %1$d Steps recorded!</string>
+    <string name="hud_encounter_title">Encounter Challenge: Phantom Pacer</string>
+    <string name="hud_encounter_desc">Maintain pace &gt;115 SPM to bypass security node</string>
+    <string name="hud_encounter_optimal">ZONE: OPTIMAL</string>
+    <string name="hud_encounter_reward">+250 EXP • Rare Cyber Core</string>
+    <string name="hud_audio_rhythm">Stride Rhythm Audio (145 BPM)</string>
+    <string name="hud_audio_track">Night City Runner • Tokyo Overdrive</string>
+
+    <!-- Post-Workout Raid Summary -->
+    <string name="raid_summary_title">Stage 04: Shibuya Overdrive Climb</string>
+    <string name="raid_summary_status">Mission Synchronized • Raid Concluded</string>
+    <string name="raid_grade_s">GRADE S CLEAR</string>
+    <string name="raid_grade_a">GRADE A CLEAR</string>
+    <string name="raid_grade_b">GRADE B CLEAR</string>
+    <string name="raid_overdrive_master">OVERDRIVE MASTER</string>
+    <string name="raid_km_splits_title">Kilometer Splits &amp; Cadence</string>
+    <string name="raid_overdrive_badge">Overdrive (&gt;120 SPM)</string>
+    <string name="raid_loot_cache_title">Raid Loot Cache Dropped</string>
+    <string name="raid_claim_rewards">CLAIM REWARDS &amp; RETURN</string>
+    <string name="raid_detailed_log">Detailed Log</string>
+    <string name="raid_send_ghost">Send Ghost Rival</string>
+    <string name="raid_rewards_banked_toast">Rewards Banked into Inventory!</string>
+    <string name="home_aura_synced">AURA SYNCED</string>
+    <string name="home_aura_overdrive_active">Overdrive multiplier active (+20% XP)</string>
+    <string name="home_cadence_insight">You strike 24% faster cadence during morning commutes (8-9 AM).</string>
+    <string name="home_start_live_stride">Start Live Stride</string>
+    <string name="home_live_stride_sub">Raid Stage 04 • Neo Shibuya Route</string>
+
+    <!-- Milestone 12: TrueStep UX Architecture Polish -->
+    <string name="scrub_viewing_hour_format">Viewing %1$s • %2$s steps</string>
+    <string name="return_to_full_day">Return to Full Day</string>
+    <string name="view_full_history_link">View Full History</string>
+    <string name="goal_tiers_overview">Goal Tiers</string>
+    <string name="active_time_tile_label">Active Time</string>
+    <string name="active_time_mins_format">%1$d mins</string>
+    <string name="pause_tracking_desc">Pause step tracking</string>
+    <string name="resume_tracking_desc">Resume step tracking</string>
+    <string name="open_trust_center_action">Trust &amp; Transparency Details</string>
+
+    <!-- Milestone 14: Solo Leveling System & Option C Cyber-Gate Expeditions -->
+    <string name="hunter_stat_points_title">Hunter Attribute Matrix</string>
+    <string name="hunter_stat_points_available">+%1$d Available Stat Points</string>
+    <string name="hunter_stat_points_none">0 Stat Points</string>
+    <string name="hunter_stat_str">Strength (STR)</string>
+    <string name="hunter_stat_str_desc">Stride force • +15 CP per point</string>
+    <string name="hunter_stat_agi">Agility (AGI)</string>
+    <string name="hunter_stat_agi_desc">Cadence speed • +10% Cadence rating</string>
+    <string name="hunter_stat_vit">Vitality (VIT)</string>
+    <string name="hunter_stat_vit_desc">Stamina reserve • Streak shield resilience</string>
+    <string name="hunter_stat_sen">Sense (SEN)</string>
+    <string name="hunter_stat_sen_desc">Mana perception • Sparks &amp; Shards discovery</string>
+    <string name="hunter_stat_allocated_toast">Allocated 1 Point to %1$s! (+15 CP)</string>
+    <string name="cyber_gate_title">Cybernetic Hunter Expedition</string>
+    <string name="cyber_gate_subtitle">Breach dimensional portals with real-world walking</string>
+    <string name="cyber_gate_combo_format">COMBO X%1$d</string>
+    <string name="cyber_gate_score_format">ARCADE SCORE: %1$,d</string>
+    <string name="cyber_gate_chamber_format">Chamber %1$d/4: %2$s</string>
+    <string name="cyber_gate_loot_legendary_core">Legendary Core (S)</string>
+    <string name="cyber_gate_loot_arcane_chip">Arcane Data Chip</string>
+    <string name="cyber_gate_loot_mystic_dust">Mystic Dust (x150)</string>
+    <string name="cyber_gate_loot_cyber_fragment">Cybernetic Fragment</string>
+    <string name="cyber_gate_continue_raid">CONTINUE RAID</string>
+    <string name="cyber_gate_boss_approaching">BOSS APPROACHING</string>
+    <string name="system_window_header">[ SYSTEM NOTIFICATION ]</string>
+    <string name="system_level_up_title">Hunter Awakening • Level Up!</string>
+    <string name="system_level_up_body">Your physical steps have shattered the dimensional barrier. Hunter Level advanced to LV.%1$d! +3 Unassigned Stat Points awarded to your dossier.</string>
+    <string name="system_quest_arrival_title">Daily Quest Has Arrived!</string>
+    <string name="system_quest_arrival_body">[Daily Quest: Survival of the Strongest] has been issued by the System. Complete target steps to avoid the Penalty Zone.</string>
+    <string name="system_gate_breached_title">Dimensional Gate Breached!</string>
+    <string name="system_gate_breached_body">Cyber-Gate portal neutralized! Grade S Loot Cache has dropped into your inventory.</string>
+    <string name="system_confirm_button">ACCEPT [ENTER]</string>
+
+    <!-- Homepage UI/UX Fluid Remediation & HUD Parity -->
+    <string name="home_initiate_stride_raid">⚡ INITIATE STRIDE RAID</string>
+    <string name="home_hunter_dossier">// HUNTER DOSSIER</string>
+    <string name="home_open_gear_vault">OPEN GEAR VAULT →</string>
+    <string name="home_active_contracts">// ACTIVE CONTRACTS</string>
+    <string name="home_loot_vault">LOOT VAULT →</string>
+    <string name="home_mana_overdrive_engaged">⚡ MANA OVERDRIVE ENGAGED</string>
+    <string name="telemetry_standby">// STANDBY</string>
+    <string name="telemetry_arc_reactor">// ARC REACTOR</string>
+    <string name="telemetry_hardware">// HARDWARE TELEMETRY</string>
+    <string name="telemetry_stale">// TELEMETRY STALE</string>
+    <string name="overdrive_charge_badge">⚡ 100% OVERDRIVE</string>
+    <string name="charge_badge_format">[ %1$d%% CHARGE ]</string>
+    <string name="boost_badge_format">%1$sx BOOST</string>
+    <string name="exp_gauge_format">[ %1$d%% TO LV.%2$d ]</string>
+    <string name="home_urgent_quest_beacon">⚡ [SYSTEM NOTICE: 1 ACTIVE DIRECTIVE] • TAP TO OPEN POPUP</string>
+    <string name="home_summon_quest_hud">POPUP HUD ⚡</string>
+    <string name="quest_summon_popup_title">SUMMON SYSTEM QUEST HUD</string>
+    <string name="quest_penalty_warning_short">⚠ Failure by midnight risks Penalty Zone transfer.</string>
+    <string name="quest_objective_label">OBJECTIVE:</string>
+    <string name="quest_rewards_label">CLEAR REWARDS:</string>
+    <string name="quest_accept_sync_btn">SYNCHRONIZE PROTOCOL [OK]</string>
+    <string name="quest_rank_e_bounty">RANK E • SYSTEM DIRECTIVE</string>
+    <string name="quest_tap_to_inspect">TAP FOR SYSTEM POPUP ↗</string>
+    <string name="history_mission_archives_title">CHRONO MISSION ARCHIVES</string>
+    <string name="history_mission_archives_subtitle">Tactical kinetic records &amp; dungeon clear logs</string>
+    <string name="history_lifetime_dossier">LIFETIME TACTICAL DOSSIER</string>
+    <string name="history_rank_s_badge">GRADE S [CLEARED]</string>
+    <string name="history_rank_a_badge">GRADE A</string>
+    <string name="history_rank_b_badge">GRADE B</string>
+    <string name="history_rank_c_badge">GRADE C</string>
+    <string name="streak_cryo_stasis_title">CRYO-STASIS STREAK CORE</string>
+    <string name="streak_cryo_stasis_ready">CRYO-CELL CHARGED</string>
+    <string name="streak_deploy_cryo_btn">DEPLOY CRYO-SHIELD</string>
+    <string name="trophies_hall_of_honors">HUNTER HALL OF HONORS &amp; RELICS</string>
+    <string name="trophy_encrypted_status">ENCRYPTED ARCHIVE</string>
+    <string name="trust_neural_matrix_title">NEURAL SECURITY MATRIX</string>
+    <string name="trust_neural_matrix_subtitle">Zero-trust on-device telemetry firewall</string>
+    <string name="goals_power_matrix_title">SYSTEM DIRECTIVES &amp; POWER THRESHOLDS</string>
+    <string name="goals_power_matrix_subtitle">Calibrate kinetic thresholds &amp; overdrive goals</string>
+</resources>
